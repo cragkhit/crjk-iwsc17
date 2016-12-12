@@ -91,22 +91,7 @@
 <li>The complete result of each system will look similar to this:</li>
 </ol>
 
-<p>jfreechart
-├── type1
-│   ├── decomp-jfreechart_functions-clones
-│   │   └── jfreechart_functions-clones-0.00-classes.xml
-│   └── orig-jfreechart_functions-clones
-│       └── jfreechart_functions-clones-0.00-classes.xml
-├── type2c
-│   ├── decomp-jfreechart_functions-consistent-clones
-│   │   └── jfreechart_functions-consistent-clones-0.00-classes.xml
-│   └── orig-jfreechart_functions-consistent-clones
-│       └── jfreechart_functions-consistent-clones-0.00-classes.xml
-└── type3-2c
-    ├── decomp-jfreechart_functions-consistent-clones
-    │   └── jfreechart_functions-consistent-clones-0.30-classes.xml
-    └── orig-jfreechart_functions-consistent-clones
-        └── jfreechart_functions-consistent-clones-0.30-classes.xml</p>
+<p><img src="structure.png" alt="Structure of the clone reports before analysis"></p>
 
 <ol>
 <li>Change directory to CloneMapper.</li>
@@ -114,8 +99,9 @@
 <li>Compile and run the clone mapper.</li>
 </ol>
 
-<p><code>mvn compile</code>
-<code>mvn exec:java</code></p>
+<p><code>mvn compile</code></p>
+
+<p><code>mvn exec:java</code></p>
 
 <ol>
 <li>The common, orig-only, and decomp-only clone pairs can be found in each results folder.</li>
