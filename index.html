@@ -82,6 +82,45 @@
 <h2>
 <a id="replicate-the-study" class="anchor" href="#replicate-the-study" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Replicate the Study</h2>
 
+<ol>
+<li>Clone the repo.</li>
+<li>Download <a href="https://www.txl.ca/nicaddownload.html">NiCad 4.0</a> and install it on your machine.</li>
+<li>Modify three NiCad's configuration: type1.cfg, type2c.cfg, and type3-2c.cfg by changing cluster to "yes" (cluster=yes).</li>
+<li>Run NiCad against each system both the original (in iwsc2017/systems) and the decompiled version (in iwsc2017/decompile).</li>
+<li>Copy clone class report to each corresponding folder of each system with each clone type in iwsc2017/results folder. For example, for jfreechart's type 1 clone, copy jfreechart_functions-clones-0.00-classes.xml to iwsc2017/results/jfreechart/type1/orig-jfreechart_functions-clones.</li>
+<li>The complete result of each system will look similar to this:</li>
+</ol>
+
+<p>jfreechart
+├── type1
+│   ├── decomp-jfreechart_functions-clones
+│   │   └── jfreechart_functions-clones-0.00-classes.xml
+│   └── orig-jfreechart_functions-clones
+│       └── jfreechart_functions-clones-0.00-classes.xml
+├── type2c
+│   ├── decomp-jfreechart_functions-consistent-clones
+│   │   └── jfreechart_functions-consistent-clones-0.00-classes.xml
+│   └── orig-jfreechart_functions-consistent-clones
+│       └── jfreechart_functions-consistent-clones-0.00-classes.xml
+└── type3-2c
+    ├── decomp-jfreechart_functions-consistent-clones
+    │   └── jfreechart_functions-consistent-clones-0.30-classes.xml
+    └── orig-jfreechart_functions-consistent-clones
+        └── jfreechart_functions-consistent-clones-0.30-classes.xml</p>
+
+<ol>
+<li>Change directory to CloneMapper.</li>
+<li>Modify the config.properties by changing the location of HOME_DIR and SRC_HOME_DIR to the full path of your iwsc2017 folder.</li>
+<li>Compile and run the clone mapper.</li>
+</ol>
+
+<p><code>mvn compile</code>
+<code>mvn exec:java</code></p>
+
+<ol>
+<li>The common, orig-only, and decomp-only clone pairs can be found in each results folder.</li>
+</ol>
+
 <h3>
 <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
 
