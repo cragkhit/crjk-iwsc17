@@ -1,0 +1,12 @@
+package org.apache.tomcat.websocket;
+private enum State {
+    OPEN,
+    STREAM_WRITING,
+    WRITER_WRITING,
+    BINARY_PARTIAL_WRITING,
+    BINARY_PARTIAL_READY,
+    BINARY_FULL_WRITING,
+    TEXT_PARTIAL_WRITING,
+    TEXT_PARTIAL_READY,
+    TEXT_FULL_WRITING;
+}

@@ -1,0 +1,30 @@
+package org.apache.catalina;
+import java.io.File;
+import org.apache.catalina.startup.Catalina;
+import javax.naming.Context;
+import org.apache.catalina.deploy.NamingResourcesImpl;
+public interface Server extends Lifecycle {
+    NamingResourcesImpl getGlobalNamingResources();
+    void setGlobalNamingResources ( NamingResourcesImpl p0 );
+    Context getGlobalNamingContext();
+    int getPort();
+    void setPort ( int p0 );
+    String getAddress();
+    void setAddress ( String p0 );
+    String getShutdown();
+    void setShutdown ( String p0 );
+    ClassLoader getParentClassLoader();
+    void setParentClassLoader ( ClassLoader p0 );
+    Catalina getCatalina();
+    void setCatalina ( Catalina p0 );
+    File getCatalinaBase();
+    void setCatalinaBase ( File p0 );
+    File getCatalinaHome();
+    void setCatalinaHome ( File p0 );
+    void addService ( Service p0 );
+    void await();
+    Service findService ( String p0 );
+    Service[] findServices();
+    void removeService ( Service p0 );
+    Object getNamingToken();
+}

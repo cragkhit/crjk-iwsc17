@@ -1,0 +1,63 @@
+// 
+// Decompiled by Procyon v0.5.29
+// 
+
+package nonblocking;
+
+import java.nio.charset.StandardCharsets;
+import java.io.IOException;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.ServletInputStream;
+import javax.servlet.AsyncContext;
+import javax.servlet.WriteListener;
+import javax.servlet.ReadListener;
+
+private static class CounterListener implements ReadListener, WriteListener
+{
+    private final AsyncContext ac;
+    private final ServletInputStream sis;
+    private final ServletOutputStream sos;
+    private volatile boolean readFinished;
+    private volatile long totalBytesRead;
+    private byte[] buffer;
+    
+    private CounterListener(final AsyncContext ac, final ServletInputStream sis, final ServletOutputStream sos) {
+        this.readFinished = false;
+        this.totalBytesRead = 0L;
+        this.buffer = new byte[8192];
+        this.ac = ac;
+        this.sis = sis;
+        this.sos = sos;
+        sis.setReadListener((ReadListener)this);
+        sos.setWriteListener((WriteListener)this);
+    }
+    
+    public void onDataAvailable() throws IOException {
+        int read = 0;
+        while (this.sis.isReady() && read > -1) {
+            read = this.sis.read(this.buffer);
+            if (read > 0) {
+                this.totalBytesRead += read;
+            }
+        }
+    }
+    
+    public void onAllDataRead() throws IOException {
+        this.readFinished = true;
+        if (this.sos.isReady()) {
+            this.onWritePossible();
+        }
+    }
+    
+    public void onWritePossible() throws IOException {
+        if (this.readFinished) {
+            final String msg = "Total bytes written = [" + this.totalBytesRead + "]";
+            this.sos.write(msg.getBytes(StandardCharsets.UTF_8));
+            this.ac.complete();
+        }
+    }
+    
+    public void onError(final Throwable throwable) {
+        this.ac.complete();
+    }
+}

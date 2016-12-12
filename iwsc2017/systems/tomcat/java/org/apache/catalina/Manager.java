@@ -1,0 +1,37 @@
+package org.apache.catalina;
+import java.beans.PropertyChangeListener;
+import java.io.IOException;
+public interface Manager {
+    public Context getContext();
+    public void setContext ( Context context );
+    public SessionIdGenerator getSessionIdGenerator();
+    public void setSessionIdGenerator ( SessionIdGenerator sessionIdGenerator );
+    public long getSessionCounter();
+    public void setSessionCounter ( long sessionCounter );
+    public int getMaxActive();
+    public void setMaxActive ( int maxActive );
+    public int getActiveSessions();
+    public long getExpiredSessions();
+    public void setExpiredSessions ( long expiredSessions );
+    public int getRejectedSessions();
+    public int getSessionMaxAliveTime();
+    public void setSessionMaxAliveTime ( int sessionMaxAliveTime );
+    public int getSessionAverageAliveTime();
+    public int getSessionCreateRate();
+    public int getSessionExpireRate();
+    public void add ( Session session );
+    public void addPropertyChangeListener ( PropertyChangeListener listener );
+    public void changeSessionId ( Session session );
+    public void changeSessionId ( Session session, String newId );
+    public Session createEmptySession();
+    public Session createSession ( String sessionId );
+    public Session findSession ( String id ) throws IOException;
+    public Session[] findSessions();
+    public void load() throws ClassNotFoundException, IOException;
+    public void remove ( Session session );
+    public void remove ( Session session, boolean update );
+    public void removePropertyChangeListener ( PropertyChangeListener listener );
+    public void unload() throws IOException;
+    public void backgroundProcess();
+    public boolean willAttributeDistribute ( String name, Object value );
+}

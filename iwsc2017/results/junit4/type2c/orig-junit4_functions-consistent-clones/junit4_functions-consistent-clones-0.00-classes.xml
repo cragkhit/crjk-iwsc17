@@ -1,0 +1,14 @@
+<clones>
+<systeminfo processor="nicad3" system="junit4" granularity="functions-consistent" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="1366" npairs="6"/>
+<runinfo ncompares="1521" cputime="39142"/>
+<classinfo nclasses="1"/>
+
+<class classid="1" nclones="4" nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="18" endline="29" pcid="509"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="31" endline="42" pcid="510"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="57" endline="68" pcid="512"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="44" endline="55" pcid="511"></source>
+</class>
+
+</clones>

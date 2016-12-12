@@ -8,36 +8,42 @@ import java.util.HashMap;
 public class DuplicateChecker {
 
     public static void main(String[] args) {
+        for (int type=1; type<=3; type++)
+            process(type);
+    }
+
+    public static void process(int type) {
+        Utilities u = new Utilities();
         System.out.println("CHECKING DUPLICATES ... ");
         checkPairAndCopyDetails(
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE-1] + "/" + Utilities.SYSTEM + "_only_orig_with_checks.csv",
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + Utilities.SYSTEM + "_only_orig_with_checks.csv",
-                0, 0, false, ",Found in type" + (Utilities.TYPE-1) + " clones", ".csv", "_type1.csv");
-        if (Utilities.TYPE == 3) {
+                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type-1] + "/" + Utilities.SYSTEM + "_only_orig_with_checks.csv",
+                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type] + "/" + Utilities.SYSTEM + "_only_orig_with_checks.csv",
+                0, 0, false, ",Found in type" + (type-1) + " clones", ".csv", "_type1.csv");
+        if (type == 3) {
             checkPairAndCopyDetails(
-                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE-2] + "/" + Utilities.SYSTEM + "_only_orig_with_checks.csv",
-                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + Utilities.SYSTEM + "_only_orig_with_checks_type1.csv",
-                    0, 0, false, ",Found in type" + (Utilities.TYPE-2) + " clones", ".csv", "_2.csv");
+                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type-2] + "/" + Utilities.SYSTEM + "_only_orig_with_checks.csv",
+                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type] + "/" + Utilities.SYSTEM + "_only_orig_with_checks_type1.csv",
+                    0, 0, false, ",Found in type" + (type-2) + " clones", ".csv", "_2.csv");
         }
         checkPairAndCopyDetails(
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE-1] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks.csv",
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks.csv",
-                0, 0, false, ",Found in type" + (Utilities.TYPE-1) + " cloness", ".csv", "_type1.csv");
-        if (Utilities.TYPE == 3) {
+                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type-1] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks.csv",
+                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks.csv",
+                0, 0, false, ",Found in type" + (type-1) + " cloness", ".csv", "_type1.csv");
+        if (type == 3) {
             checkPairAndCopyDetails(
-                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE-2] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks.csv",
-                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks_type1.csv",
-                    0, 0, false, ",Found in type" + (Utilities.TYPE-2) + " clones", ".csv", "_2.csv");
+                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type-2] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks.csv",
+                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type] + "/" + Utilities.SYSTEM + "_only_decomp_with_checks_type1.csv",
+                    0, 0, false, ",Found in type" + (type-2) + " clones", ".csv", "_2.csv");
         }
         checkPairAndCopyDetails(
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE-1] + "/" + Utilities.SYSTEM + "_agreed.csv",
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + Utilities.SYSTEM + "_agreed.csv",
-                0, 0, false, ",Found in type" + (Utilities.TYPE-1) + " clones", ".csv", "_type1.csv");
-        if (Utilities.TYPE == 3) {
+                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type-1] + "/" + Utilities.SYSTEM + "_agreed_with_checks.csv",
+                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type] + "/" + Utilities.SYSTEM + "_agreed_with_checks.csv",
+                0, 0, false, ",Found in type" + (type-1) + " clones", ".csv", "_type1.csv");
+        if (type == 3) {
             checkPairAndCopyDetails(
-                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE-2] + "/" + Utilities.SYSTEM + "_agreed.csv",
-                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + Utilities.SYSTEM + "_agreed_type1.csv",
-                    0, 0, false, ",Found in type" + (Utilities.TYPE-2) + " clones", ".csv", "_2.csv");
+                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type-2] + "/" + Utilities.SYSTEM + "_agreed_with_checks.csv",
+                    Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[type] + "/" + Utilities.SYSTEM + "_agreed_with_checks_type1.csv",
+                    0, 0, false, ",Found in type" + (type-2) + " clones", ".csv", "_2.csv");
         }
         System.out.println("DONE ... ");
     }

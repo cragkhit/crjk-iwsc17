@@ -1,7 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde3f2d7-db2d-49d6-8888-88bd388abd8a" name="Default" comment="" />
+    <list default="true" id="c7e413d6-4d8d-4d30-8d26-d2d72d52895f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/asf-logo-wide.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/asf-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/bg-button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/bg-middle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/bg-nav-item.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/bg-nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/bg-upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/tomcat-power.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/tomcat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/tomcat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/ROOT/tomcat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/aio.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/build.xml.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/installation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/introduction.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/processes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/docs/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/sample.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/src/mypackage/Hello.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/web/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/web/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/sample/web/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/source.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/appdev/web.xml.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/apr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/overview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/requestProcess.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/requestProcess/authentication-process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/requestProcess/request-process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/startup.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/startup/serverStartup.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/architecture/startup/serverStartup.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/balancer-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/building.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/cgi-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/changelog.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/class-loader-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/cluster-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/comments.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/ajp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/automatic-deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-channel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-deployer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-interceptor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-listener.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-manager.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-membership.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-receiver.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-sender.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster-valve.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cluster.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/cookie-processor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/credentialhandler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/engine.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/executor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/filter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/globalresources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/host.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/http.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/http2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/jar-scan-filter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/jar-scanner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/jaspic.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/listeners.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/loader.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/manager.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/realm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/resources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/server.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/service.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/sessionidgenerator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/systemprops.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/config/valve.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/connectors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/default-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/deployer-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/developers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/elapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/extras.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/fs-admin-apps.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/fs-admin-objects.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/fs-admin-opers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/fs-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/fs-jdbc-realm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/fs-jndi-realm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/fs-memory-realm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/mbean-names.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/funcspecs/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/html-manager-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/asf-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/asf-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/cors-flowchart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/docs-stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fonts/OpenSans400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fonts/OpenSans400italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fonts/OpenSans600.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fonts/OpenSans600italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fonts/OpenSans700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fonts/OpenSans700italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/fonts/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/printer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/tomcat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/tomcat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/introduction.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/jasper-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/jndi-datasource-examples-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/jndi-resources-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/jspapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/logging.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/manager-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/maven-jars.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/mbeans-descriptors-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/monitoring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/proxy-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/realm-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/rewrite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/security-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/security-manager-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/servletapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/setup.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/ssi-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/ssl-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tomcat-docs.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/developers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/faq.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/interceptors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/introduction.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/leader-election-initiate-election.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/leader-election-initiate-election.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/leader-election-message-arrives.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/leader-election-message-arrives.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/membership.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/setup.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/status.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/tribes/transport.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/virtual-hosting-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/web-socket-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/websocketapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/windows-auth-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/docs/windows-service-howto.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/CookieExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/HelloWorldExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/LocalStrings.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/LocalStrings_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/LocalStrings_es.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/RequestInfoExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/RequestParamExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/ServletToJsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/SessionExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/async/Async0.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/async/Async1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/async/Async2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/async/Async3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/async/Stockticker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/cal/Entries.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/cal/Entry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/cal/JspCalendar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/cal/TableBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/error/Smart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/examples/FooTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/examples/LogTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/examples/ShowSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/examples/ValuesTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/listeners/ContextListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/listeners/SessionListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/sessions/DummyCart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/util/CookieFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/servers.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/jsp/debug-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/jsp/example-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/jsp2/jsp2-example-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/tags/displayProducts.tag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/tags/helloWorld.tag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/tags/panel.tag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/async/async1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/async/async3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/async/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/cal/cal1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/cal/cal2.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/cal/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/cal/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/checkbox/CheckTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/checkbox/check.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/checkbox/checkresult.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/checkbox/cresult.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/colors/ColorGameBean.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/colors/clr.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/colors/colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/colors/colrs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/dates/date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/dates/date.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/error/er.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/error/err.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/error/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/error/errorpge.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/forward/forward.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/forward/fwd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/forward/one.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/forward/two.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/images/execute.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/images/read.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/images/return.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/include/foo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/include/foo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/include/inc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/include/include.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/basic-arithmetic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/basic-comparisons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/composite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/composite.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/functions.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/implicit-objects.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/el/implicit-objects.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspattribute/shuffle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspx/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspx/basic.jspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspx/svgexample.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspx/textRotate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspx/textRotate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/jspx/textRotate.jspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/misc/coda.jspf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/misc/config.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/misc/config.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/misc/dynamicattrs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/misc/prelude.jspf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/simpletag/book.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/simpletag/book.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/simpletag/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/simpletag/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/simpletag/repeat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/simpletag/repeat.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/tagfiles/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/tagfiles/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/tagfiles/panel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/tagfiles/panel.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/tagfiles/products.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsp2/tagfiles/products.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsptoserv/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/jsptoserv/jts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/num/numguess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/num/numguess.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/plugin/plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/plugin/plugin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/security/protected/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/security/protected/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/security/protected/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/sessions/DummyCart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/sessions/carts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/sessions/carts.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/sessions/crt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/simpletag/foo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/simpletag/foo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/snp/snoop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/snp/snoop.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/source.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/choose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/choose.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/foreach.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/foreach.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/if.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/if.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/tagplugin/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/xml/xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/jsp/xml/xml.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/cookies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/helloworld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/images/execute.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/images/return.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/nonblocking/bytecounter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/reqheaders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/reqinfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/reqparams.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/servlets/sessions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/websocket/chat.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/websocket/drawboard.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/websocket/echo.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/websocket/index.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/examples/websocket/snake.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/asf-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/host-manager/manager.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/WEB-INF/jsp/sessionsList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/asf-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/status.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../systems/tomcat/webapps/manager/xform.xsl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../paper/iwsc2017.pdf" afterPath="$PROJECT_DIR$/../paper/iwsc2017.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../paper/iwsc2017.synctex.gz" afterPath="$PROJECT_DIR$/../paper/iwsc2017.synctex.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AutomaticManualChecker.java" afterPath="$PROJECT_DIR$/src/main/java/AutomaticManualChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DuplicateChecker.java" afterPath="$PROJECT_DIR$/src/main/java/DuplicateChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../paper/iwsc2017.log" afterPath="$PROJECT_DIR$/../paper/iwsc2017.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../paper/iwsc2017.tex" afterPath="$PROJECT_DIR$/../paper/iwsc2017.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../results/tomcat/type1/tomcat_only_decomp_with_checks.csv" afterPath="$PROJECT_DIR$/../results/tomcat/type1/tomcat_only_decomp_with_checks.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../results/tomcat/type3-2c/tomcat_only_orig_with_checks_type1_2.csv" afterPath="$PROJECT_DIR$/../results/tomcat/type3-2c/tomcat_only_orig_with_checks_type1_2.csv" />
+    </list>
+    <ignored path="ProcessDecompClones.iws" />
+    <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,18 +444,121 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="CloneMapper" />
+    <favorites_list name="ProcessDecompClones" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AutomaticManualChecker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AutomaticManualChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="11" column="82" lean-forward="false" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+              <folding>
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>u.TYPE</find>
+      <find>Utilities.TYPE</find>
+      <find>CLONE_FILE_ENDING</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>type</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/JavaFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Clone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MethodParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Fragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BoilterPlateChecker.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/code.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrintOpenVimScript.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AutomaticManualChecker.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DuplicateChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="730" />
+    <option name="height" value="731" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -43,45 +574,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CloneMapper" />
+              <option name="myItemId" value="ProcessDecompClones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CloneMapper" />
+              <option name="myItemId" value="ProcessDecompClones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CloneMapper" />
+              <option name="myItemId" value="ProcessDecompClones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CloneMapper" />
+              <option name="myItemId" value="ProcessDecompClones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CloneMapper" />
+              <option name="myItemId" value="ProcessDecompClones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CloneMapper" />
+              <option name="myItemId" value="ProcessDecompClones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -92,24 +619,171 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeasProjects" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProcessDecompClones" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrintOpenVimScript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PrintOpenVimScript" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProcessDecompClones" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AutomaticManualChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="AutomaticManualChecker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProcessDecompClones" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ProcessDecompClones" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DuplicateChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="DuplicateChecker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProcessDecompClones" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -135,6 +809,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -154,6 +844,52 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProcessDecompClones" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -192,52 +928,145 @@
       <listeners />
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PrintOpenVimScript" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AutomaticManualChecker" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DuplicateChecker" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DuplicateChecker" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AutomaticManualChecker" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PrintOpenVimScript" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bde3f2d7-db2d-49d6-8888-88bd388abd8a" name="Default" comment="" />
-      <created>1481547823012</created>
+      <changelist id="c7e413d6-4d8d-4d30-8d26-d2d72d52895f" name="Default" comment="" />
+      <created>1479152553513</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1481547823012</updated>
+      <updated>1479152553513</updated>
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MainTest - 2016.11.19 at 17h 42m 40s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 09m 51s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 09m 57s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 10m 01s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 10m 48s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 11m 47s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 12m 24s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 12m 51s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 12m 58s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2016.11.19 at 18h 13m 37s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5571205" sideWeight="0.5048465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5571205" sideWeight="0.4951535" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6682316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23182553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17791899" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399841" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -245,5 +1074,429 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="190" column="18" lean-forward="false" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Clone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="190" column="18" lean-forward="false" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Clone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="190" column="18" lean-forward="false" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Clone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Clone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="97" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="115" column="16" lean-forward="false" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="78" column="98" lean-forward="false" selection-start-line="78" selection-start-column="98" selection-end-line="78" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="70" column="74" lean-forward="false" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaMethod.java" />
+    <entry file="file://$PROJECT_DIR$/only_orig_clone_pairs.csv" />
+    <entry file="file://$PROJECT_DIR$/agreed_clone_pairs.csv" />
+    <entry file="file://$PROJECT_DIR$/only_decomp_clone_pairs.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Clone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/CheckEqualsMethodsAndGettersSetters.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MethodParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="165" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrintOpenVimScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="40" column="84" lean-forward="false" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DuplicateChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutomaticManualChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="11" column="82" lean-forward="false" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProcessDecompClones</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

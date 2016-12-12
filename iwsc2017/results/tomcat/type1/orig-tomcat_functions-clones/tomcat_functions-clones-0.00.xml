@@ -1,0 +1,756 @@
+<clones>
+<systeminfo processor="nicad3" system="tomcat" granularity="functions" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16481" npairs="150"/>
+<runinfo ncompares="306883" cputime="128978"/>
+
+<clone nlines="71" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="72" endline="142" pcid="16073"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="72" endline="142" pcid="16083"></source>
+</clone>
+
+<clone nlines="71" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="72" endline="142" pcid="15681"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="72" endline="142" pcid="16073"></source>
+</clone>
+
+<clone nlines="71" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="72" endline="142" pcid="16475"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="72" endline="142" pcid="16073"></source>
+</clone>
+
+<clone nlines="71" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="72" endline="142" pcid="15681"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="72" endline="142" pcid="16083"></source>
+</clone>
+
+<clone nlines="71" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="72" endline="142" pcid="16475"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="72" endline="142" pcid="16083"></source>
+</clone>
+
+<clone nlines="71" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="72" endline="142" pcid="16475"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="72" endline="142" pcid="15681"></source>
+</clone>
+
+<clone nlines="68" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/SessionExample.java" startline="16" endline="88" pcid="15941"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/SessionExample.java" startline="16" endline="88" pcid="16343"></source>
+</clone>
+
+<clone nlines="64" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="153" endline="216" pcid="15795"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="153" endline="216" pcid="16197"></source>
+</clone>
+
+<clone nlines="64" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" startline="74" endline="140" pcid="15780"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" startline="74" endline="140" pcid="16182"></source>
+</clone>
+
+<clone nlines="61" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/CookieExample.java" startline="16" endline="83" pcid="15811"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/CookieExample.java" startline="16" endline="83" pcid="16213"></source>
+</clone>
+
+<clone nlines="47" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/RequestInfoExample.java" startline="13" endline="64" pcid="15936"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/RequestInfoExample.java" startline="13" endline="64" pcid="16338"></source>
+</clone>
+
+<clone nlines="47" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" startline="24" endline="72" pcid="15779"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" startline="24" endline="72" pcid="16181"></source>
+</clone>
+
+<clone nlines="42" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/RequestParamExample.java" startline="13" endline="58" pcid="16340"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/RequestParamExample.java" startline="13" endline="58" pcid="15938"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" startline="17" endline="58" pcid="16336"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" startline="17" endline="58" pcid="15934"></source>
+</clone>
+
+<clone nlines="35" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="92" endline="128" pcid="16371"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="92" endline="128" pcid="15969"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java" startline="13" endline="46" pcid="15883"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java" startline="13" endline="46" pcid="16285"></source>
+</clone>
+
+<clone nlines="32" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/Async0.java" startline="16" endline="47" pcid="15688"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/Async0.java" startline="16" endline="47" pcid="16090"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/Stockticker.java" startline="42" endline="73" pcid="16109"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/Stockticker.java" startline="42" endline="73" pcid="15707"></source>
+</clone>
+
+<clone nlines="30" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/cal/TableBean.java" startline="35" endline="65" pcid="16164"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/cal/TableBean.java" startline="35" endline="65" pcid="15762"></source>
+</clone>
+
+<clone nlines="30" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" startline="127" endline="159" pcid="16396"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" startline="127" endline="159" pcid="15994"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" startline="3" endline="29" pcid="15954"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/jasper/security/SecurityUtil.java" startline="12" endline="38" pcid="9762"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" startline="3" endline="29" pcid="16356"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/jasper/security/SecurityUtil.java" startline="12" endline="38" pcid="9762"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="125" endline="152" pcid="15794"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="125" endline="152" pcid="16196"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" startline="3" endline="29" pcid="16356"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" startline="3" endline="29" pcid="15954"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" startline="87" endline="120" pcid="16394"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" startline="87" endline="120" pcid="15992"></source>
+</clone>
+
+<clone nlines="27" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="138" endline="163" pcid="16008"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="138" endline="163" pcid="16410"></source>
+</clone>
+
+<clone nlines="27" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/Async2.java" startline="16" endline="44" pcid="16094"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/Async2.java" startline="16" endline="44" pcid="15692"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/res/StringManager.java" startline="14" endline="39" pcid="14522"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/util/StringManager.java" startline="14" endline="39" pcid="5727"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="51" endline="75" pcid="15787"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="51" endline="75" pcid="16189"></source>
+</clone>
+
+<clone nlines="23" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" startline="50" endline="72" pcid="16046"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" startline="50" endline="72" pcid="16448"></source>
+</clone>
+
+<clone nlines="23" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/Async1.java" startline="14" endline="36" pcid="16092"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/Async1.java" startline="14" endline="36" pcid="15690"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="20" endline="41" pcid="16472"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="20" endline="41" pcid="16080"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="20" endline="41" pcid="16070"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="20" endline="41" pcid="16080"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="20" endline="41" pcid="15678"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="20" endline="41" pcid="16080"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="20" endline="41" pcid="16472"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="20" endline="41" pcid="16070"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="20" endline="41" pcid="16472"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="20" endline="41" pcid="15678"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" startline="57" endline="77" pcid="15698"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" startline="57" endline="77" pcid="16100"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="95" endline="116" pcid="15807"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="95" endline="116" pcid="16209"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="60" endline="83" pcid="16002"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="60" endline="83" pcid="16404"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/res/StringManager.java" startline="75" endline="98" pcid="14528"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/util/StringManager.java" startline="75" endline="98" pcid="5733"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="20" endline="41" pcid="15678"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="20" endline="41" pcid="16070"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="34" endline="55" pcid="16366"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="34" endline="55" pcid="15964"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java" startline="12" endline="33" pcid="16183"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java" startline="12" endline="33" pcid="15781"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/HelloWorldExample.java" startline="11" endline="35" pcid="15864"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/HelloWorldExample.java" startline="11" endline="35" pcid="16266"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/examples/ValuesTag.java" startline="26" endline="44" pcid="15860"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/examples/ValuesTag.java" startline="26" endline="44" pcid="16262"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="118" endline="136" pcid="16007"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="118" endline="136" pcid="16409"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="52" endline="70" pcid="16072"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="52" endline="70" pcid="16082"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="52" endline="70" pcid="15680"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="52" endline="70" pcid="16072"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="52" endline="70" pcid="16474"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="52" endline="70" pcid="16072"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="52" endline="70" pcid="15680"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="52" endline="70" pcid="16082"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="52" endline="70" pcid="16474"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="52" endline="70" pcid="16082"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="52" endline="70" pcid="16474"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="52" endline="70" pcid="15680"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/el/util/ReflectionUtil.java" startline="298" endline="314" pcid="8192"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/javax/el/Util.java" startline="258" endline="274" pcid="186"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" startline="38" endline="55" pcid="15932"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" startline="38" endline="55" pcid="16334"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" startline="9" endline="28" pcid="16357"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" startline="9" endline="28" pcid="15955"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java" startline="51" endline="69" pcid="16363"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java" startline="51" endline="69" pcid="15961"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="57" endline="74" pcid="16368"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="57" endline="74" pcid="15966"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/valves/RemoteIpValve.java" startline="23" endline="38" pcid="6149"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/filters/RemoteIpFilter.java" startline="217" endline="232" pcid="2961"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/coyote/http11/AbstractHttp11Protocol.java" startline="175" endline="190" pcid="6806"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/coyote/http2/Http2Protocol.java" startline="134" endline="149" pcid="7237"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" startline="25" endline="40" pcid="16039"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" startline="25" endline="40" pcid="16441"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" startline="29" endline="45" pcid="15696"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" startline="29" endline="45" pcid="16098"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" startline="69" endline="84" pcid="15828"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" startline="69" endline="84" pcid="16230"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/javax/el/ArrayELResolver.java" startline="92" endline="107" pcid="10"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/javax/el/ListELResolver.java" startline="99" endline="114" pcid="114"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" startline="9" endline="23" pcid="16038"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" startline="9" endline="23" pcid="16440"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java" startline="61" endline="75" pcid="16323"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java" startline="61" endline="75" pcid="15921"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/res/StringManager.java" startline="40" endline="54" pcid="14523"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/util/StringManager.java" startline="40" endline="54" pcid="5728"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/coyote/http11/AbstractHttp11Protocol.java" startline="191" endline="205" pcid="6807"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/coyote/http2/Http2Protocol.java" startline="150" endline="164" pcid="7238"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/FairBlockingQueue.java" startline="249" endline="262" pcid="15145"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/MultiLockFairBlockingQueue.java" startline="260" endline="273" pcid="15471"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java" startline="12" endline="26" pcid="15865"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java" startline="12" endline="26" pcid="16267"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/util/CookieFilter.java" startline="8" endline="21" pcid="15951"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/util/CookieFilter.java" startline="8" endline="21" pcid="16353"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="18" endline="31" pcid="16365"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="18" endline="31" pcid="15963"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" startline="45" endline="60" pcid="16460"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" startline="45" endline="60" pcid="16058"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/el/lang/ExpressionBuilder.java" startline="218" endline="230" pcid="7624"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/collections/SynchronizedStack.java" startline="21" endline="33" pcid="12320"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/el/util/ReflectionUtil.java" startline="339" endline="351" pcid="8198"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/javax/el/Util.java" startline="562" endline="574" pcid="212"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" startline="11" endline="25" pcid="16168"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" startline="11" endline="25" pcid="15766"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" startline="54" endline="66" pcid="16067"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" startline="54" endline="66" pcid="16469"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" startline="32" endline="45" pcid="16065"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" startline="32" endline="45" pcid="16467"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="104" endline="117" pcid="16006"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="104" endline="117" pcid="16408"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="47" endline="59" pcid="15999"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="47" endline="59" pcid="16401"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="76" endline="88" pcid="16370"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" startline="76" endline="88" pcid="15968"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/examples/FooTag.java" startline="32" endline="44" pcid="15851"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/examples/FooTag.java" startline="32" endline="44" pcid="16253"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="122" endline="134" pcid="15809"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="122" endline="134" pcid="16211"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/HandlerRef.java" startline="36" endline="48" pcid="10140"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/EjbRef.java" startline="33" endline="45" pcid="10097"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/EjbRef.java" startline="33" endline="45" pcid="10097"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceEnvRef.java" startline="12" endline="24" pcid="10199"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceLinkRef.java" startline="20" endline="32" pcid="10201"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/EjbRef.java" startline="33" endline="45" pcid="10097"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceRef.java" startline="40" endline="52" pcid="10204"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/EjbRef.java" startline="33" endline="45" pcid="10097"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/EjbRef.java" startline="33" endline="45" pcid="10097"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ServiceRef.java" startline="62" endline="74" pcid="10245"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/EjbRef.java" startline="33" endline="45" pcid="10097"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/TransactionRef.java" startline="15" endline="27" pcid="10254"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/HandlerRef.java" startline="36" endline="48" pcid="10140"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceEnvRef.java" startline="12" endline="24" pcid="10199"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceLinkRef.java" startline="20" endline="32" pcid="10201"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/HandlerRef.java" startline="36" endline="48" pcid="10140"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceRef.java" startline="40" endline="52" pcid="10204"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/HandlerRef.java" startline="36" endline="48" pcid="10140"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/HandlerRef.java" startline="36" endline="48" pcid="10140"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ServiceRef.java" startline="62" endline="74" pcid="10245"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/HandlerRef.java" startline="36" endline="48" pcid="10140"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/TransactionRef.java" startline="15" endline="27" pcid="10254"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceLinkRef.java" startline="20" endline="32" pcid="10201"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceEnvRef.java" startline="12" endline="24" pcid="10199"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceRef.java" startline="40" endline="52" pcid="10204"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceEnvRef.java" startline="12" endline="24" pcid="10199"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ServiceRef.java" startline="62" endline="74" pcid="10245"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceEnvRef.java" startline="12" endline="24" pcid="10199"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceEnvRef.java" startline="12" endline="24" pcid="10199"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/TransactionRef.java" startline="15" endline="27" pcid="10254"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceLinkRef.java" startline="20" endline="32" pcid="10201"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceRef.java" startline="40" endline="52" pcid="10204"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceLinkRef.java" startline="20" endline="32" pcid="10201"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ServiceRef.java" startline="62" endline="74" pcid="10245"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceLinkRef.java" startline="20" endline="32" pcid="10201"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/TransactionRef.java" startline="15" endline="27" pcid="10254"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceRef.java" startline="40" endline="52" pcid="10204"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ServiceRef.java" startline="62" endline="74" pcid="10245"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ResourceRef.java" startline="40" endline="52" pcid="10204"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/TransactionRef.java" startline="15" endline="27" pcid="10254"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/ServiceRef.java" startline="62" endline="74" pcid="10245"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/naming/TransactionRef.java" startline="15" endline="27" pcid="10254"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="88" endline="99" pcid="15789"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="88" endline="99" pcid="16191"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="101" endline="112" pcid="15790"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="101" endline="112" pcid="16192"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="220" endline="230" pcid="15797"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="220" endline="230" pcid="16199"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="62" endline="73" pcid="15804"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="62" endline="73" pcid="16206"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="82" endline="93" pcid="15806"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="82" endline="93" pcid="16208"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/examples/LogTag.java" startline="22" endline="33" pcid="16257"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/examples/LogTag.java" startline="22" endline="33" pcid="15855"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" startline="73" endline="86" pcid="16393"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" startline="73" endline="86" pcid="15991"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" startline="11" endline="22" pcid="16024"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" startline="11" endline="22" pcid="16426"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" startline="24" endline="36" pcid="16025"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" startline="24" endline="36" pcid="16427"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" startline="73" endline="84" pcid="16047"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" startline="73" endline="84" pcid="16449"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" startline="80" endline="91" pcid="16463"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" startline="80" endline="91" pcid="16061"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/collections/ConcurrentCache.java" startline="14" endline="25" pcid="12278"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/el/util/ConcurrentCache.java" startline="14" endline="25" pcid="8177"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/util/ExceptionUtils.java" startline="3" endline="13" pcid="5715"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/ExceptionUtils.java" startline="4" endline="14" pcid="13139"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/ExceptionUtils.java" startline="4" endline="14" pcid="13139"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/jasper/runtime/ExceptionUtils.java" startline="4" endline="14" pcid="9502"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/util/ExceptionUtils.java" startline="3" endline="13" pcid="5715"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/jasper/runtime/ExceptionUtils.java" startline="4" endline="14" pcid="9502"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/valves/ValveBase.java" startline="63" endline="73" pcid="6365"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/ha/tcp/SimpleTcpCluster.java" startline="374" endline="384" pcid="3279"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/Stockticker.java" startline="128" endline="138" pcid="16122"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/Stockticker.java" startline="128" endline="138" pcid="15720"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="77" endline="87" pcid="15788"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" startline="77" endline="87" pcid="16190"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="50" endline="61" pcid="15803"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" startline="50" endline="61" pcid="16205"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" startline="62" endline="72" pcid="16461"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" startline="62" endline="72" pcid="16059"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" startline="38" endline="49" pcid="16045"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" startline="38" endline="49" pcid="16447"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" startline="26" endline="37" pcid="16033"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" startline="26" endline="37" pcid="16435"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" startline="7" endline="16" pcid="15871"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" startline="7" endline="16" pcid="16273"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/javax/el/StandardELContext.java" startline="89" endline="99" pcid="158"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/jasper/el/ELContextImpl.java" startline="37" endline="47" pcid="9302"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="153" endline="162" pcid="16478"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="153" endline="162" pcid="16086"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="153" endline="162" pcid="16478"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="153" endline="162" pcid="16076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="153" endline="162" pcid="16478"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="153" endline="162" pcid="15684"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="42" endline="51" pcid="16473"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="42" endline="51" pcid="16081"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="42" endline="51" pcid="16473"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="42" endline="51" pcid="16071"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="42" endline="51" pcid="16473"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="42" endline="51" pcid="15679"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java" startline="11" endline="25" pcid="16035"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java" startline="11" endline="25" pcid="16437"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" startline="14" endline="24" pcid="16032"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" startline="14" endline="24" pcid="16434"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="164" endline="173" pcid="16009"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" startline="164" endline="173" pcid="16411"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" startline="47" endline="56" pcid="15697"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" startline="47" endline="56" pcid="16099"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="153" endline="162" pcid="16076"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="153" endline="162" pcid="16086"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="153" endline="162" pcid="15684"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="153" endline="162" pcid="16086"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="42" endline="51" pcid="16071"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="42" endline="51" pcid="16081"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="42" endline="51" pcid="15679"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/webapps/examples/jsp/plugin/applet/Clock2.java" startline="42" endline="51" pcid="16081"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="153" endline="162" pcid="15684"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="153" endline="162" pcid="16076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/jsp/plugin/applet/Clock2.java" startline="42" endline="51" pcid="15679"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/output/build/webapps/examples/WEB-INF/jsp/applet/Clock2.java" startline="42" endline="51" pcid="16071"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/FairBlockingQueue.java" startline="238" endline="247" pcid="15144"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/MultiLockFairBlockingQueue.java" startline="249" endline="258" pcid="15470"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/res/StringManager.java" startline="99" endline="109" pcid="14530"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/util/StringManager.java" startline="99" endline="109" pcid="5735"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/el/lang/ExpressionBuilder.java" startline="240" endline="249" pcid="7626"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/collections/SynchronizedStack.java" startline="51" endline="60" pcid="12323"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/buf/MessageBytes.java" startline="220" endline="229" pcid="12119"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/buf/CharChunk.java" startline="340" endline="349" pcid="12083"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/buf/ByteChunk.java" startline="399" endline="408" pcid="12031"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/buf/MessageBytes.java" startline="220" endline="229" pcid="12119"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/buf/ByteChunk.java" startline="399" endline="408" pcid="12031"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/tomcat/util/buf/CharChunk.java" startline="340" endline="349" pcid="12083"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/membership/McastService.java" startline="416" endline="425" pcid="5250"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/tomcat/java/org/apache/catalina/tribes/membership/StaticMember.java" startline="26" endline="35" pcid="5360"></source>
+</clone>
+
+</clones>

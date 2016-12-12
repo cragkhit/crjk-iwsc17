@@ -1,0 +1,13 @@
+package org.apache.tomcat.util.http;
+public enum FailReason {
+    CLIENT_DISCONNECT,
+    MULTIPART_CONFIG_INVALID,
+    INVALID_CONTENT_TYPE,
+    IO_ERROR,
+    NO_NAME,
+    POST_TOO_LARGE,
+    REQUEST_BODY_INCOMPLETE,
+    TOO_MANY_PARAMETERS,
+    UNKNOWN,
+    URL_DECODING;
+}

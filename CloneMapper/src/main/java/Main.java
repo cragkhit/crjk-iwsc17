@@ -16,33 +16,64 @@ public class Main {
     private static HashMap<String, ArrayList<Method>> methodMap;
     private static BufferedWriter bw;
 
-    private static String origCloneFile = "decomp-"
-            + Utilities.SYSTEM + "_functions-" + Utilities.FOLDER_NAME_ENDING[Utilities.TYPE] + "/"
-            + Utilities.SYSTEM + "_functions-" + Utilities.CLONE_FILE_ENDING[Utilities.TYPE] + ".xml";
-    private static String processedCloneFile = Utilities.SYSTEM + "_clone_pairs_mapped.xml";
-    private static String clonePairsDecompFile = Utilities.SYSTEM + "_clone_pairs_decomp.csv";
-    private static String clonePairsFile = Utilities.SYSTEM + "_clone_pairs_orig.csv";
+    private static String origCloneFile;
+    private static String processedCloneFile;
+    private static String clonePairsDecompFile;
+    private static String clonePairsFile;
     private static Method matchedMethod = new Method();
     // minimum line to consider as clone
     private static int SIZE_THRESHOLD = 10;
 
-    public static void main(String[] args) {
-        methodMap = readBaseDir(Utilities.HOME_DIR + "/" + Utilities.BASED_PATH);
-        System.out.println("BEGIN MAPPING ... ");
-        readSearchFileAndMatch(Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM
-                + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + origCloneFile, Utilities.HOME_DIR + "/results/"
-                + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + processedCloneFile);
-        HashSet<Fragment> flistDecomp = processXML(
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + processedCloneFile,
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + clonePairsDecompFile,
-                false);
-        HashSet<Fragment> flistOrig = processOrigXML(
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + "/orig-"
-                        + Utilities.SYSTEM + "_functions-" + Utilities.FOLDER_NAME_ENDING[Utilities.TYPE] + "/" + Utilities.SYSTEM + "_functions-" + Utilities.CLONE_FILE_ENDING[Utilities.TYPE] + ".xml",
-                Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + "/" + clonePairsFile);
-        findDifferences(flistDecomp, flistOrig, Utilities.HOME_DIR + "/results/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] );
+    private static Utilities u = new Utilities();
 
-        AutomaticManualChecker.process();
+    public static void main(String[] args) {
+        for (int type = 1; type <= 3; type++) {
+            loadSettings(type);
+            methodMap = readBaseDir(u.HOME_DIR + "/" + u.BASED_PATH);
+            System.out.println("BEGIN MAPPING ... ");
+            readSearchFileAndMatch(u.HOME_DIR + "/results/" + u.SYSTEM
+                    + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + origCloneFile, u.HOME_DIR + "/results/"
+                    + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + processedCloneFile);
+            HashSet<Fragment> flistDecomp = processXML(
+                    u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + processedCloneFile,
+                    u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + clonePairsDecompFile,
+                    false);
+            HashSet<Fragment> flistOrig = processOrigXML(
+                    u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + "/orig-"
+                            + u.SYSTEM + "_functions-" + u.FOLDER_NAME_ENDING[type] + "/" + u.SYSTEM + "_functions-"
+                            + u.CLONE_FILE_ENDING[type] + ".xml",
+                    u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + "/" + clonePairsFile);
+            findDifferences(flistDecomp, flistOrig, u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type]);
+
+            // Can be called after having common clone pairs with specific naming
+            AutomaticManualChecker.process(u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + u.SYSTEM + "_only_orig.csv");
+            AutomaticManualChecker.process(u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + u.SYSTEM + "_only_decomp.csv");
+            AutomaticManualChecker.process(u.HOME_DIR + "/results/" + u.SYSTEM + "/" + u.RESULTS_FOLDER_NAME[type] + "/" + u.SYSTEM + "_agreed.csv");
+        }
+
+        // checking the same clones appearing in type1 and type2 already.
+        DuplicateChecker.process(2);
+        DuplicateChecker.process(3);
+    }
+
+    public static void loadSettings(int type) {
+        origCloneFile = "decomp-"
+                + Utilities.SYSTEM + "_functions-" + Utilities.FOLDER_NAME_ENDING[type] + "/"
+                + Utilities.SYSTEM + "_functions-" + Utilities.CLONE_FILE_ENDING[type] + ".xml";
+        processedCloneFile = Utilities.SYSTEM + "_clone_pairs_mapped.xml";
+        clonePairsDecompFile = Utilities.SYSTEM + "_clone_pairs_decomp.csv";
+        clonePairsFile = Utilities.SYSTEM + "_clone_pairs_orig.csv";
+
+        System.out.println("LOADED: HOME DIR: " + u.HOME_DIR);
+        System.out.println("LOADED: SYSTEM HOME DIR: " + u.SRC_HOME_DIR);
+        System.out.println("LOADED: SYSTEM DIR: " + u.BASED_PATH);
+        System.out.println("LOADED: DECOMPILED SYSTEM DIR: " + u.SEARCH_PATH);
+        System.out.println("LOADED: SYSTEM: " + u.SYSTEM);
+//        System.out.println("LOADED: CLONE TYPE: " + u.TYPE);
+        System.out.println("LOADED: LOCATION OF DECOMP CLONE FILE: " + origCloneFile);
+        System.out.println("LOADED: LOCATION OF DECOMP-AND-MAPPED CLONE FILE: " + processedCloneFile);
+        System.out.println("LOADED: DECOMP-AND-MAPPED CLONE PAIRS: " + clonePairsDecompFile);
+        System.out.println("LOADED: ORIGINAL CLONE PAIRS: " + clonePairsFile);
     }
 
     public static HashMap<String, ArrayList<Method>> readBaseDir(String inputFolder) {

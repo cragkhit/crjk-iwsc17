@@ -5,12 +5,13 @@ public class AutomaticManualChecker {
     private static String SO_DIR = Utilities.HOME_DIR + "/" + Utilities.BASED_PATH + "/";
 
     public static void main ( String[] args ) {
-        process();
+        process(SYSTEM + "_agreed.csv");
     }
 
-    public static void process () {
-        System.out.println ( "CHECKING FOR BOILTER-PLATE CODE ..." );
-        checkEqualsMethodsAndGettersSetters ( projectLocation + "/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + SYSTEM + "_agreed_type1_2.csv"
+    public static void process (String fileName) {
+        System.out.println ( "FILTERING BOILTER-PLATE CODE OF " + fileName + " ...");
+        checkEqualsMethodsAndGettersSetters (
+                fileName
                 , 1, -1, 0
                 , SO_DIR );
 //        checkEqualsMethodsAndGettersSetters ( projectLocation + "/" + Utilities.SYSTEM + "/" + Utilities.RESULTS_FOLDER_NAME[Utilities.TYPE] + "/" + SYSTEM + "_only_decomp.csv"
