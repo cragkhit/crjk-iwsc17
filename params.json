@@ -1,6 +1,6 @@
 {
   "name": "IWSC 2017 submission: Using compilation & decompilation to enhance clone detection",
   "tagline": "A website accompanying the IWSC 2017 paper \"Using compilation/decompilation to enhance clone detection\".",
-  "body": "### Clone Oracle\r\nThe 326 clone pairs manually validated can be downloaded [here](clone_oracle.csv).\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.\r\n",
+  "body": "### Clone Oracle\r\nThe 326 clone pairs manually validated can be downloaded [here](clone_oracle.csv).\r\n\r\n### Clone Mapper\r\nThe source code of clone mapper tool can be downloaded [here](clone_mapper_src.zip).\r\n\r\n### Systems\r\nThe three selected systems for our study (junit4, jfreechart, tomcat) can be downloaded below:\r\n* [junit4](systems/junit.zip)\r\n* [jfreechart](systems/jfreechart.zip)\r\n* [tomcat](systems/tomcat.zip)\r\n\r\n### Contact\r\nPlease contact Chaiyong Ragkhitwetsagul (ucabagk at ucl dot ac dot uk) for any inquiries regarding this project.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
