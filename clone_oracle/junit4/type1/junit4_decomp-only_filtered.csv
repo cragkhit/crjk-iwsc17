@@ -1,0 +1,11 @@
+junit4/src/main/java/org/junit/validator/AnnotationsValidator.java,36,52,junit4/src/main/java/org/junit/validator/AnnotationsValidator.java,36,52,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/experimental/categories/Categories.java,77,87,junit4/src/main/java/org/junit/experimental/categories/Categories.java,77,87,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/experimental/theories/Theories.java,140,178,junit4/src/main/java/org/junit/experimental/theories/Theories.java,140,178,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/runners/Parameterized.java,96,111,junit4/src/main/java/org/junit/runners/Parameterized.java,96,111,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/experimental/max/MaxHistory.java,97,107,junit4/src/main/java/org/junit/experimental/max/MaxHistory.java,97,107,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java,40,50,junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java,40,50,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/runners/Parameterized.java,75,84,junit4/src/main/java/org/junit/runners/Parameterized.java,75,84,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/experimental/categories/Categories.java,155,165,junit4/src/main/java/org/junit/experimental/categories/Categories.java,155,165,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/experimental/theories/Theories.java,179,191,junit4/src/main/java/org/junit/experimental/theories/Theories.java,179,191,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/experimental/categories/Categories.java,88,113,junit4/src/main/java/org/junit/experimental/categories/Categories.java,88,113,filtered,inner class generates the same method after decompiled
+junit4/src/main/java/org/junit/internal/management/ManagementFactory.java,15,27,junit4/src/main/java/org/junit/internal/management/ManagementFactory.java,15,27,filtered,inner class generates the same method after decompiled

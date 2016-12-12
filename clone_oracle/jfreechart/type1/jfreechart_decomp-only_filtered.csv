@@ -1,0 +1,10 @@
+jfreechart/src/main/java/org/jfree/chart/ChartHints.java,13,23,jfreechart/src/main/java/org/jfree/chart/ChartHints.java,13,23,filtered,inner class generates the same method after decompiled
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/CyclicXYItemRenderer.java,241,250,jfreechart/src/main/java/org/jfree/chart/renderer/xy/CyclicXYItemRenderer.java,241,250,filtered,inner class generates the same method after decompiled
+jfreechart/src/main/java/org/jfree/chart/axis/SegmentedTimeline.java,757,766,jfreechart/src/main/java/org/jfree/chart/axis/SegmentedTimeline.java,757,766,filtered,inner class generates the same method after decompiled
+jfreechart/src/main/java/org/jfree/chart/renderer/LookupPaintScale.java,43,54,jfreechart/src/main/java/org/jfree/chart/renderer/LookupPaintScale.java,43,54,filtered,inner class generates the same method after decompiled
+jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPointer.java,107,121,jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPointer.java,107,121,filtered,inner class generates the same method after decompiled
+jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPointer.java,51,66,jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPointer.java,51,66,filtered,inner class generates the same method after decompiled
+jfreechart/src/main/java/org/jfree/chart/renderer/LookupPaintScale.java,58,73,jfreechart/src/main/java/org/jfree/chart/renderer/LookupPaintScale.java,58,73,filtered,inner class generates the same method after decompiled
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java,657,670,jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,704,718,TP,original code has one blank line added
+jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java,212,231,jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java,1189,1213,TP,original code has a few lines different (declaration)
+jfreechart/src/main/java/org/jfree/chart/axis/NumberAxis.java,343,367,jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java,1189,1213,TP,original code has a few lines different (declaration)

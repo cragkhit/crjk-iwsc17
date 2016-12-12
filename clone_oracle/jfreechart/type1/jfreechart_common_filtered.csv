@@ -1,0 +1,43 @@
+jfreechart/src/main/java/org/jfree/data/general/DefaultPieDataset.java,131,166,jfreechart/src/main/java/org/jfree/data/category/CategoryToPieDataset.java,154,186,filtered,similar equals() methods
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYAreaRenderer2.java,71,105,jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYAreaRenderer.java,145,179,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer.java,201,211,jfreechart/src/main/java/org/jfree/chart/renderer/category/LineAndShapeRenderer.java,159,169,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java,1810,1822,jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java,1045,1057,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/renderer/category/BoxAndWhiskerRenderer.java,134,172,jfreechart/src/main/java/org/jfree/chart/renderer/category/AreaRenderer.java,57,100,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java,288,302,jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java,343,357,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer.java,132,142,jfreechart/src/main/java/org/jfree/chart/renderer/category/LineAndShapeRenderer.java,102,112,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java,262,277,jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java,230,244,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java,1797,1809,jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java,918,930,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/urls/CustomXYURLGenerator.java,43,54,jfreechart/src/main/java/org/jfree/chart/urls/CustomCategoryURLGenerator.java,39,50,filtered,similar getter
+jfreechart/src/main/java/org/jfree/chart/renderer/category/StandardBarPainter.java,51,68,jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java,128,145,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java,205,221,jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java,206,222,,
+jfreechart/src/main/java/org/jfree/chart/labels/IntervalXYToolTipGenerator.java,36,99,jfreechart/src/main/java/org/jfree/chart/labels/IntervalXYItemLabelGenerator.java,59,126,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java,147,183,jfreechart/src/main/java/org/jfree/chart/renderer/category/StandardBarPainter.java,71,107,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java,336,349,jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedAreaRenderer.java,298,311,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYBarPainter.java,71,107,jfreechart/src/main/java/org/jfree/chart/renderer/category/StandardBarPainter.java,71,107,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBarRenderer.java,582,657,jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer.java,668,744,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYBarPainter.java,71,107,jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java,147,183,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYBarPainter.java,51,68,jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java,127,144,,
+jfreechart/src/main/java/org/jfree/chart/plot/ThermometerPlot.java,257,273,jfreechart/src/main/java/org/jfree/chart/plot/MeterPlot.java,370,386,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java,1001,1029,jfreechart/src/main/java/org/jfree/chart/renderer/DefaultPolarItemRenderer.java,144,172,,
+jfreechart/src/main/java/org/jfree/chart/plot/SpiderWebPlot.java,237,249,jfreechart/src/main/java/org/jfree/chart/plot/MultiplePiePlot.java,104,116,,
+jfreechart/src/main/java/org/jfree/chart/renderer/category/LineRenderer3D.java,181,211,jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer3D.java,209,239,,
+jfreechart/src/main/java/org/jfree/chart/plot/PolarPlot.java,459,479,jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java,511,531,,
+jfreechart/src/main/java/org/jfree/data/time/Week.java,326,339,jfreechart/src/main/java/org/jfree/data/time/Month.java,274,286,,
+jfreechart/src/main/java/org/jfree/chart/axis/NumberAxis.java,343,367,jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java,212,231,,
+jfreechart/src/main/java/org/jfree/chart/labels/StandardXYZToolTipGenerator.java,84,115,jfreechart/src/main/java/org/jfree/chart/labels/BubbleXYItemLabelGenerator.java,88,119,,
+jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java,924,948,jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java,996,1020,,
+jfreechart/src/main/java/org/jfree/chart/renderer/category/LineRenderer3D.java,108,177,jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer3D.java,136,205,,
+jfreechart/src/main/java/org/jfree/chart/editor/DefaultNumberAxisEditor.java,97,109,jfreechart/src/main/java/org/jfree/chart/editor/DefaultLogAxisEditor.java,59,70,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYBarPainter.java,71,107,jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java,148,184,,
+jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java,346,355,jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java,296,305,,
+jfreechart/src/main/java/org/jfree/chart/fx/demo/PieChartFXDemo1.java,31,69,jfreechart/src/main/java/org/jfree/chart/demo/PieChartDemo1.java,42,80,,
+jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java,315,324,jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java,388,399,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java,147,183,jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java,148,184,,
+jfreechart/src/main/java/org/jfree/chart/fx/demo/BarChartFXDemo1.java,28,42,jfreechart/src/main/java/org/jfree/chart/demo/BarChartDemo1.java,41,55,,
+jfreechart/src/main/java/org/jfree/chart/renderer/category/StandardBarPainter.java,71,107,jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java,148,184,,
+jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java,949,976,jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java,1058,1085,,
+jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java,339,353,jfreechart/src/main/java/org/jfree/data/time/TimeSeriesCollection.java,401,416,,
+jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java,417,426,jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java,325,334,,
+jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java,186,202,jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java,187,203,,
+jfreechart/src/main/java/org/jfree/chart/labels/IntervalCategoryToolTipGenerator.java,41,66,jfreechart/src/main/java/org/jfree/chart/labels/IntervalCategoryItemLabelGenerator.java,45,70,,
+jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java,879,897,jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java,968,986,,

@@ -1,0 +1,10 @@
+junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,31,42,junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,57,68,filtered,Found in type2 clones
+junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,44,55,junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,57,68,filtered,Found in type2 clones
+junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,18,29,junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,57,68,filtered,Found in type2 clones
+junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,18,29,junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,44,55,filtered,Found in type2 clones
+junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,31,42,junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,44,55,filtered,Found in type2 clones
+junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,18,29,junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java,31,42,filtered,Found in type2 clones
+junit4/src/main/java/org/junit/runners/parameterized/TestWithParameters.java,36,50,junit4/src/main/java/org/junit/runners/model/TestClass.java,194,206,filtered,similar equals() methods
+junit4/src/main/java/org/junit/internal/TextListener.java,61,72,junit4/src/main/java/junit/textui/ResultPrinter.java,60,73,,
+junit4/src/main/java/org/junit/experimental/theories/Theories.java,28,41,junit4/src/main/java/org/junit/experimental/theories/Theories.java,42,55,,
+junit4/src/main/java/org/junit/experimental/results/ResultMatchers.java,24,33,junit4/src/main/java/org/junit/experimental/results/ResultMatchers.java,34,43,,
