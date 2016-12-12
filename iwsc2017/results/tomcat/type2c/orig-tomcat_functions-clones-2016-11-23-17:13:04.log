@@ -1,0 +1,51 @@
+
+Wed 23 Nov 2016 17:13:04 GMT
+./tools/streamprocess.x './txl/java-rename-consistent-functions.x stdin' < /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions.xml > /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions-consistent.xml
+
+real	0m7.909s
+user	0m5.665s
+sys	0m1.826s
+
+Wed 23 Nov 2016 17:13:12 GMT
+
+Wed 23 Nov 2016 17:13:12 GMT
+./tools/clonepairs.x /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions-consistent.xml 0.00 10 2500 > /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00.xml
+Processing /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions-consistent.xml with difference threshold 0%, clone size 10 .. 2500 lines
+Reading pcs ................. done.
+Total 16481/7200000 potential clones of 10 lines or more
+Used 94494/120000000 total pc lines
+Used 3958308/720000000 unique line text chars
+ and 61799/14400000 unique lines
+Sorting pcs . done.
+Finding clones ................ done.
+Total 305990 pc comparisons
+Pruning embedded clone pairs .. done.
+Pruned 6 embedded clone pairs
+Found 457 clone pairs
+Generating XML output . done.
+
+
+real	0m0.151s
+user	0m0.106s
+sys	0m0.026s
+
+Wed 23 Nov 2016 17:13:13 GMT
+
+Wed 23 Nov 2016 17:13:13 GMT
+./tools/cloneclasses.x /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00.xml > /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00-classes.xml
+Processing /Users/chaiyong/Documents/iwsc2017/systems/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00.xml
+Reading clone pairs . done.
+Total 457 pairs
+Sorting pairs . done.
+Indexing pairs . done.
+Computing classes . done.
+Clustered clone pairs into 197 classes
+Generating XML output .. done.
+
+
+real	0m0.061s
+user	0m0.016s
+sys	0m0.034s
+
+Wed 23 Nov 2016 17:13:13 GMT
+

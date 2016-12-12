@@ -1,0 +1,31 @@
+package org.apache.catalina;
+import java.io.File;
+import java.util.concurrent.ExecutorService;
+import java.util.regex.Pattern;
+public interface Host extends Container {
+    public static final String ADD_ALIAS_EVENT = "addAlias";
+    public static final String REMOVE_ALIAS_EVENT = "removeAlias";
+    public String getXmlBase();
+    public void setXmlBase ( String xmlBase );
+    public File getConfigBaseFile();
+    public String getAppBase();
+    public File getAppBaseFile();
+    public void setAppBase ( String appBase );
+    public boolean getAutoDeploy();
+    public void setAutoDeploy ( boolean autoDeploy );
+    public String getConfigClass();
+    public void setConfigClass ( String configClass );
+    public boolean getDeployOnStartup();
+    public void setDeployOnStartup ( boolean deployOnStartup );
+    public String getDeployIgnore();
+    public Pattern getDeployIgnorePattern();
+    public void setDeployIgnore ( String deployIgnore );
+    public ExecutorService getStartStopExecutor();
+    public boolean getCreateDirs();
+    public void setCreateDirs ( boolean createDirs );
+    public boolean getUndeployOldVersions();
+    public void setUndeployOldVersions ( boolean undeployOldVersions );
+    public void addAlias ( String alias );
+    public String[] findAliases();
+    public void removeAlias ( String alias );
+}

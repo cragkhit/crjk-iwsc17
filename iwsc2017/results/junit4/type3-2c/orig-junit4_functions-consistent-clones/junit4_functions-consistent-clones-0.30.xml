@@ -1,0 +1,56 @@
+<clones>
+<systeminfo processor="nicad3" system="junit4" granularity="functions-consistent" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="1366" npairs="10"/>
+<runinfo ncompares="10303" cputime="35647"/>
+
+<clone nlines="14" similarity="85">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/Theories.java" startline="28" endline="41" pcid="538"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/Theories.java" startline="42" endline="55" pcid="539"></source>
+</clone>
+
+<clone nlines="13" similarity="92">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/runners/parameterized/TestWithParameters.java" startline="36" endline="50" pcid="1294"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/runners/model/TestClass.java" startline="194" endline="206" pcid="1269"></source>
+</clone>
+
+<clone nlines="12" similarity="91">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/internal/TextListener.java" startline="61" endline="72" pcid="829"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/junit/textui/ResultPrinter.java" startline="60" endline="73" pcid="245"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="18" endline="29" pcid="509"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="31" endline="42" pcid="510"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="18" endline="29" pcid="509"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="44" endline="55" pcid="511"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="18" endline="29" pcid="509"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="57" endline="68" pcid="512"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="31" endline="42" pcid="510"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="44" endline="55" pcid="511"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="31" endline="42" pcid="510"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="57" endline="68" pcid="512"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="44" endline="55" pcid="511"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="57" endline="68" pcid="512"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/results/ResultMatchers.java" startline="24" endline="33" pcid="458"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/systems/junit4/src/main/java/org/junit/experimental/results/ResultMatchers.java" startline="34" endline="43" pcid="461"></source>
+</clone>
+
+</clones>

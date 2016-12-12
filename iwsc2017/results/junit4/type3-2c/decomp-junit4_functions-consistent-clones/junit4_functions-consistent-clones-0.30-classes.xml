@@ -1,0 +1,140 @@
+<clones>
+<systeminfo processor="nicad3" system="junit4" granularity="functions-consistent" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="1590" npairs="32"/>
+<runinfo ncompares="13839" cputime="38425"/>
+<classinfo nclasses="26"/>
+
+<class classid="1" nclones="2" nlines="12" similarity="91">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/junit/textui/ResultPrinter.java" startline="63" endline="74" pcid="251"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/TextListener.java" startline="58" endline="69" pcid="963"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/ComparisonFailure$ComparisonCompactor.java" startline="23" endline="31" pcid="365"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/ComparisonFailure.java" startline="42" endline="50" pcid="379"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/categories/Categories$CategoryFilter.java" startline="57" endline="67" pcid="397"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/categories/Categories.java" startline="108" endline="118" pcid="423"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="22" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/categories/Categories$CategoryFilter.java" startline="68" endline="89" pcid="398"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/categories/Categories.java" startline="119" endline="140" pcid="424"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/categories/Categories$CategoryFilter.java" startline="131" endline="141" pcid="405"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/categories/Categories.java" startline="182" endline="192" pcid="431"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/max/MaxHistory$TestComparator.java" startline="5" endline="14" pcid="471"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/max/MaxHistory.java" startline="105" endline="114" pcid="489"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="11" similarity="72">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/results/ResultMatchers.java" startline="20" endline="29" pcid="519"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/results/ResultMatchers.java" startline="30" endline="39" pcid="522"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="13" similarity="92">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/internal/AllMembersSupplier$MethodParameterValue.java" startline="11" endline="23" pcid="528"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/internal/AllMembersSupplier.java" startline="141" endline="153" pcid="546"></source>
+</class>
+
+<class classid="9" nclones="4" nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="18" endline="29" pcid="573"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="54" endline="65" pcid="576"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="42" endline="53" pcid="575"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java" startline="30" endline="41" pcid="574"></source>
+</class>
+
+<class classid="10" nclones="3" nlines="16" similarity="93">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories$TheoryAnchor$1.java" startline="13" endline="27" pcid="607"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories.java" startline="135" endline="149" pcid="645"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories$TheoryAnchor.java" startline="51" endline="65" pcid="619"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="33" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories$TheoryAnchor.java" startline="47" endline="77" pcid="617"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories.java" startline="131" endline="161" pcid="643"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories$TheoryAnchor.java" startline="78" endline="88" pcid="623"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories.java" startline="162" endline="172" pcid="649"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="14" similarity="85">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories.java" startline="30" endline="43" pcid="631"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/experimental/theories/Theories.java" startline="44" endline="57" pcid="632"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/management/ManagementFactory$FactoryHolder.java" startline="6" endline="17" pcid="705"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/management/ManagementFactory.java" startline="13" endline="24" pcid="710"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="23" similarity="91">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/runners/MethodRoadie$1.java" startline="11" endline="32" pcid="828"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/runners/MethodRoadie.java" startline="48" endline="69" pcid="834"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="11" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout$Builder.java" startline="13" endline="23" pcid="901"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java" startline="133" endline="143" pcid="918"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="11" similarity="90">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout$CallableStatement.java" startline="9" endline="19" pcid="905"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java" startline="160" endline="170" pcid="922"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="11" similarity="72">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/rules/ExpectedException$ExpectedExceptionStatement.java" startline="8" endline="18" pcid="993"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/rules/ExpectedException.java" startline="81" endline="91" pcid="1010"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="21" similarity="95">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/rules/ExternalResource$1.java" startline="8" endline="28" pcid="1018"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/rules/ExternalResource.java" startline="13" endline="33" pcid="1021"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="11" similarity="72">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runner/manipulation/Filter$2.java" startline="6" endline="16" pcid="1209"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runner/manipulation/Filter.java" startline="8" endline="18" pcid="1214"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="14" similarity="92">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runner/notification/RunNotifier$SafeNotifier.java" startline="14" endline="27" pcid="1256"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runner/notification/RunNotifier.java" startline="122" endline="135" pcid="1284"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="13" similarity="92">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/model/TestClass.java" startline="178" endline="190" pcid="1470"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/parameterized/TestWithParameters.java" startline="34" endline="46" pcid="1495"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/Parameterized$RunnersFactory.java" startline="36" endline="45" pcid="1502"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/Parameterized.java" startline="45" endline="54" pcid="1514"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="10" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/Parameterized$RunnersFactory.java" startline="46" endline="55" pcid="1503"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/Parameterized.java" startline="55" endline="64" pcid="1515"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="12" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/Parameterized$RunnersFactory.java" startline="65" endline="76" pcid="1505"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/runners/Parameterized.java" startline="74" endline="85" pcid="1517"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="13" similarity="100">
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/validator/AnnotationsValidator$AnnotatableValidator.java" startline="21" endline="33" pcid="1570"></source>
+<source file="/Users/chaiyong/Documents/iwsc2017/decompile/junit4/src/main/java/org/junit/validator/AnnotationsValidator.java" startline="38" endline="50" pcid="1579"></source>
+</class>
+
+</clones>

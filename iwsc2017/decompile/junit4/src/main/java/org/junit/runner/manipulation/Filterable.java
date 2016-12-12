@@ -1,0 +1,4 @@
+package org.junit.runner.manipulation;
+public interface Filterable {
+    void filter ( Filter p0 ) throws NoTestsRemainException;
+}

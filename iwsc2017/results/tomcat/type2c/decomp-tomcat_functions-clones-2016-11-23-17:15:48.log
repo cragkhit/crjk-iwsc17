@@ -1,0 +1,42 @@
+
+Wed 23 Nov 2016 17:15:48 GMT
+./tools/clonepairs.x /Users/chaiyong/Documents/iwsc2017/decompile/tomcat_functions-consistent.xml 0.00 10 2500 > /Users/chaiyong/Documents/iwsc2017/decompile/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00.xml
+Processing /Users/chaiyong/Documents/iwsc2017/decompile/tomcat_functions-consistent.xml with difference threshold 0%, clone size 10 .. 2500 lines
+Reading pcs .................... done.
+Total 19224/7200000 potential clones of 10 lines or more
+Used 108050/120000000 total pc lines
+Used 4846338/720000000 unique line text chars
+ and 71343/14400000 unique lines
+Sorting pcs ..... done.
+Finding clones ................... done.
+Total 405739 pc comparisons
+Pruning embedded clone pairs .. done.
+Pruned 7 embedded clone pairs
+Found 649 clone pairs
+Generating XML output . done.
+
+
+real	0m0.177s
+user	0m0.121s
+sys	0m0.031s
+
+Wed 23 Nov 2016 17:15:48 GMT
+
+Wed 23 Nov 2016 17:15:48 GMT
+./tools/cloneclasses.x /Users/chaiyong/Documents/iwsc2017/decompile/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00.xml > /Users/chaiyong/Documents/iwsc2017/decompile/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00-classes.xml
+Processing /Users/chaiyong/Documents/iwsc2017/decompile/tomcat_functions-consistent-clones/tomcat_functions-consistent-clones-0.00.xml
+Reading clone pairs . done.
+Total 649 pairs
+Sorting pairs . done.
+Indexing pairs . done.
+Computing classes . done.
+Clustered clone pairs into 392 classes
+Generating XML output .... done.
+
+
+real	0m0.053s
+user	0m0.017s
+sys	0m0.026s
+
+Wed 23 Nov 2016 17:15:48 GMT
+

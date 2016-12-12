@@ -1,0 +1,1416 @@
+<clones>
+<systeminfo processor="nicad3" system="jfreechart" granularity="functions-consistent" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="8397" npairs="7663"/>
+<runinfo ncompares="654982" cputime="259786"/>
+<classinfo nclasses="206"/>
+
+<class classid="1" nclones="275" nlines="21" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/AbstractXYAnnotation.java" startline="52" endline="67" pcid="18"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="268" endline="283" pcid="1237"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/LookupPaintScale.java" startline="58" endline="73" pcid="5054"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/StandardCategoryURLGenerator.java" startline="83" endline="104" pcid="6090"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="409" endline="424" pcid="2742"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/NumberTickUnit.java" startline="46" endline="61" pcid="778"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/Outlier.java" startline="77" endline="92" pcid="5079"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/TickUnit.java" startline="66" endline="81" pcid="1004"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultWindDataset.java" startline="149" endline="164" pcid="7985"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java" startline="90" endline="111" pcid="2098"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/ValueTick.java" startline="48" endline="63" pcid="1088"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYAreaRenderer2.java" startline="205" endline="220" pcid="5425"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/VectorRenderer.java" startline="207" endline="222" pcid="5388"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/AbstractCategoryItemLabelGenerator.java" startline="133" endline="153" pcid="2089"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="356" endline="371" pcid="2772"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StatisticalLineAndShapeRenderer.java" startline="269" endline="287" pcid="4985"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="344" endline="359" pcid="2452"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesCollection.java" startline="420" endline="438" pcid="7699"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/DefaultBoxAndWhiskerXYDataset.java" startline="274" endline="293" pcid="7087"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Week.java" startline="224" endline="241" pcid="7772"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/ComparableObjectItem.java" startline="72" endline="87" pcid="6327"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/MultipleXYSeriesLabelGenerator.java" startline="118" endline="138" pcid="2196"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyToGroupMap.java" startline="130" endline="145" pcid="6963"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/StandardPieURLGenerator.java" startline="77" endline="95" pcid="6097"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer.java" startline="382" endline="397" pcid="5310"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/StandardXYURLGenerator.java" startline="69" endline="89" pcid="6102"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/SlidingCategoryDataset.java" startline="158" endline="176" pcid="6319"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/LegendItemEntity.java" startline="64" endline="82" pcid="1809"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/StandardCrosshairLabelGenerator.java" startline="42" endline="58" pcid="2223"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/SlidingGanttCategoryDataset.java" startline="300" endline="318" pcid="6502"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialBackground.java" startline="63" endline="79" pcid="3066"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java" startline="225" endline="243" pcid="5259"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/XYTaskDataset.java" startline="227" endline="245" pcid="6594"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/IntervalXYDelegate.java" startline="208" endline="226" pcid="8043"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/XYAnnotationEntity.java" startline="37" endline="52" pcid="1859"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/BlockBorder.java" startline="108" endline="123" pcid="1136"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/ChartEntity.java" startline="185" endline="203" pcid="1781"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/HighLowItemLabelGenerator.java" startline="107" endline="122" pcid="2148"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/YInterval.java" startline="43" endline="61" pcid="8358"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer3D.java" startline="555" endline="570" pcid="4957"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateTick.java" startline="41" endline="53" pcid="575"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/LegendItemCollection.java" startline="52" endline="64" pcid="2346"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/StandardXYSeriesLabelGenerator.java" startline="62" endline="75" pcid="2257"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarAxisLocation.java" startline="31" endline="43" pcid="3833"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java" startline="61" endline="74" pcid="2209"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Day.java" startline="189" endline="201" pcid="7263"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetGroup.java" startline="42" endline="54" pcid="6650"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/TaskSeriesCollection.java" startline="392" endline="404" pcid="6564"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/GrayPaintScale.java" startline="80" endline="98" pcid="5049"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartRenderingInfo.java" startline="81" endline="99" pcid="1494"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/MeanAndStandardDeviation.java" startline="62" endline="79" pcid="7177"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/CategoryLabelEntity.java" startline="17" endline="29" pcid="1763"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java" startline="226" endline="244" pcid="4774"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/SimpleHistogramDataset.java" startline="224" endline="242" pcid="7221"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/Task.java" startline="106" endline="128" pcid="6517"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="436" endline="451" pcid="2820"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyedValues2DItemKey.java" startline="31" endline="46" pcid="6946"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimePeriodValuesCollection.java" startline="242" endline="260" pcid="7599"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/YWithXInterval.java" startline="43" endline="61" pcid="8397"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PlotRenderingInfo.java" startline="99" endline="117" pcid="3824"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/LineBorder.java" startline="116" endline="134" pcid="1271"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/ColorBlock.java" startline="66" endline="78" pcid="1191"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java" startline="429" endline="442" pcid="7135"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyedValuesItemKey.java" startline="14" endline="26" pcid="6952"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/ImageTitle.java" startline="189" endline="201" pcid="5884"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/YIntervalRenderer.java" startline="164" endline="177" pcid="5728"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/HistogramType.java" startline="42" endline="63" pcid="7168"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Minute.java" startline="192" endline="207" pcid="7392"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/HistogramDataset.java" startline="232" endline="247" pcid="7164"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot3D.java" startline="799" endline="814" pcid="3717"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesDataItem.java" startline="50" endline="65" pcid="7707"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimePeriodValue.java" startline="49" endline="69" pcid="7547"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/SimpleTimePeriod.java" startline="58" endline="73" pcid="7533"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/TaskSeries.java" startline="75" endline="90" pcid="6527"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPointer.java" startline="51" endline="66" pcid="3137"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultOHLCDataset.java" startline="153" endline="168" pcid="7935"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/QuarterDateFormat.java" startline="100" endline="115" pcid="863"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Hour.java" startline="184" endline="199" pcid="7350"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/Series.java" startline="76" endline="91" pcid="6775"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYItemKey.java" startline="22" endline="37" pcid="8266"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/ArrowNeedle.java" startline="74" endline="89" pcid="2359"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/CompositeTitle.java" startline="99" endline="114" pcid="5866"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYDataItem.java" startline="111" endline="126" pcid="8203"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ValueMarker.java" startline="47" endline="62" pcid="4119"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DefaultKeyedValue.java" startline="49" endline="66" pcid="6393"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="334" endline="349" pcid="2791"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LevelRenderer.java" startline="248" endline="263" pcid="4806"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StatisticalBarRenderer.java" startline="361" endline="378" pcid="4974"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/SamplingXYLineRenderer.java" startline="152" endline="167" pcid="5287"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYCoordinate.java" startline="39" endline="54" pcid="8189"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyedObject.java" startline="56" endline="75" pcid="6895"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYBarDataset.java" startline="150" endline="165" pcid="8183"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/Vector.java" startline="44" endline="59" pcid="8093"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Month.java" startline="156" endline="171" pcid="7412"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java" startline="353" endline="365" pcid="5324"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java" startline="238" endline="256" pcid="4884"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/ModuloAxis.java" startline="236" endline="254" pcid="719"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/ColumnArrangement.java" startline="220" endline="241" pcid="1204"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer.java" startline="234" endline="246" pcid="4939"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java" startline="209" endline="221" pcid="5218"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/CategoryStepRenderer.java" startline="210" endline="222" pcid="4750"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedAreaRenderer.java" startline="315" endline="327" pcid="4929"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBubbleRenderer.java" startline="212" endline="224" pcid="5519"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/LookupPaintScale.java" startline="201" endline="222" pcid="5065"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/DeviationRenderer.java" startline="208" endline="220" pcid="5251"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StackedXYBarRenderer.java" startline="205" endline="217" pcid="5334"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultTableXYDataset.java" startline="283" endline="304" pcid="7961"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/AxisSpace.java" startline="188" endline="209" pcid="339"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer3D.java" startline="559" endline="577" pcid="4697"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeTableXYDataset.java" startline="263" endline="286" pcid="7752"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/FlowArrangement.java" startline="251" endline="272" pcid="1223"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Second.java" startline="169" endline="190" pcid="7523"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYSplineRenderer.java" startline="242" endline="261" pcid="5692"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYLine3DRenderer.java" startline="128" endline="146" pcid="5595"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYDotRenderer.java" startline="181" endline="199" pcid="5555"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineRenderer3D.java" startline="443" endline="461" pcid="4867"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/ohlc/OHLC.java" startline="53" endline="74" pcid="7431"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/ExtendedCategoryAxis.java" startline="101" endline="119" pcid="621"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/NumberTickUnitSource.java" startline="135" endline="156" pcid="792"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/StandardXYZToolTipGenerator.java" startline="119" endline="138" pcid="2276"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/StandardDialFrame.java" startline="98" endline="119" pcid="3236"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/BubbleXYItemLabelGenerator.java" startline="123" endline="141" pcid="2133"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultWindDataset.java" startline="221" endline="239" pcid="7991"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/JFreeChartEntity.java" startline="37" endline="58" pcid="1797"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/AxisEntity.java" startline="37" endline="58" pcid="1740"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/BlockContainer.java" startline="136" endline="154" pcid="1151"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/BorderArrangement.java" startline="382" endline="406" pcid="1172"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/PieSectionEntity.java" startline="88" endline="109" pcid="1821"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/TimeSeriesURLGenerator.java" startline="103" endline="124" pcid="6111"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GanttRenderer.java" startline="388" endline="409" pcid="4764"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/CategoryTextAnnotation.java" startline="87" endline="108" pcid="70"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/PlotEntity.java" startline="37" endline="58" pcid="1829"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/TitleEntity.java" startline="37" endline="58" pcid="1851"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="408" endline="430" pcid="6295"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/ItemLabelPosition.java" startline="75" endline="96" pcid="2188"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DefaultKeyedValueDataset.java" startline="72" endline="93" pcid="6733"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/PointerNeedle.java" startline="68" endline="79" pcid="2409"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/PlumNeedle.java" startline="47" endline="58" pcid="2405"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/PinNeedle.java" startline="57" endline="68" pcid="2401"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyedValueComparatorType.java" startline="34" endline="48" pcid="6940"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="163" endline="175" pcid="8338"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GroupedStackedBarRenderer.java" startline="231" endline="243" pcid="4782"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/TickType.java" startline="16" endline="28" pcid="996"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AreaRenderer.java" startline="213" endline="225" pcid="4632"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimePeriodAnchor.java" startline="42" endline="57" pcid="7538"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/StandardPieSectionLabelGenerator.java" startline="88" endline="101" pcid="2234"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/ohlc/OHLCSeriesCollection.java" startline="220" endline="232" pcid="7471"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CategoryLabelWidthType.java" startline="40" endline="52" pcid="444"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/util/XYCoordinateType.java" startline="20" endline="32" pcid="6228"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/LegendRenderingOrder.java" startline="38" endline="50" pcid="2350"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateTickMarkPosition.java" startline="42" endline="56" pcid="579"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/SeriesRenderingOrder.java" startline="38" endline="50" pcid="3966"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CategoryLabelPositions.java" startline="237" endline="260" pcid="440"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CategoryAnchor.java" startline="42" endline="54" pcid="357"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateTickUnitType.java" startline="68" endline="80" pcid="612"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/DatasetRenderingOrder.java" startline="38" endline="50" pcid="3002"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/LengthConstraintType.java" startline="42" endline="54" pcid="1262"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/DialShape.java" startline="39" endline="51" pcid="3314"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/RangeType.java" startline="41" endline="54" pcid="6992"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DomainOrder.java" startline="41" endline="53" pcid="6444"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/AxisLocation.java" startline="52" endline="64" pcid="319"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PlotOrientation.java" startline="48" endline="60" pcid="3811"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AreaRendererEndType.java" startline="42" endline="54" pcid="4567"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PieLabelLinkStyle.java" startline="39" endline="51" pcid="3542"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/ItemLabelAnchor.java" startline="130" endline="142" pcid="2179"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/AxisLabelLocation.java" startline="21" endline="33" pcid="313"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/event/ChartChangeEventType.java" startline="42" endline="54" pcid="1882"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/MeterInterval.java" startline="85" endline="109" pcid="3449"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/SymbolAxis.java" startline="466" endline="488" pcid="983"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/OHLCDataItem.java" startline="77" endline="101" pcid="8086"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBlockRenderer.java" startline="225" endline="246" pcid="5489"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialCap.java" startline="83" endline="104" pcid="3082"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPointer.java" startline="123" endline="138" pcid="3147"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Millisecond.java" startline="157" endline="181" pcid="7369"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/NumberAxis.java" startline="702" endline="727" pcid="766"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYInterval.java" startline="62" endline="86" pcid="8222"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYErrorRenderer.java" startline="220" endline="244" pcid="5573"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/Title.java" startline="204" endline="228" pcid="6057"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/util/DefaultShadowGenerator.java" startline="123" endline="147" pcid="6142"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/StandardContourToolTipGenerator.java" startline="58" endline="71" pcid="2217"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYStepRenderer.java" startline="139" endline="151" pcid="5719"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateTickUnit.java" startline="206" endline="227" pcid="598"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="1242" endline="1271" pcid="568"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/MonthDateFormat.java" startline="110" endline="131" pcid="729"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/IntervalMarker.java" startline="92" endline="114" pcid="3377"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/Tick.java" startline="62" endline="83" pcid="991"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="519" endline="544" pcid="691"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/util/LogFormat.java" startline="66" endline="90" pcid="6174"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/ColorBar.java" startline="270" endline="297" pcid="467"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYStepAreaRenderer.java" startline="325" endline="352" pcid="5710"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYAreaRenderer.java" startline="336" endline="366" pcid="5412"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/MarkerAxisBand.java" startline="146" endline="173" pcid="701"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/StandardDialRange.java" startline="126" endline="153" pcid="3258"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DefaultHeatMapDataset.java" startline="99" endline="129" pcid="6724"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/HighLowRenderer.java" startline="255" endline="282" pcid="5275"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/MultiplePiePlot.java" startline="385" endline="416" pcid="3527"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CategoryLabelPosition.java" startline="108" endline="135" pcid="429"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/WaterfallBarRenderer.java" startline="274" endline="302" pcid="5001"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeries.java" startline="489" endline="513" pcid="8315"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYShapeAnnotation.java" startline="95" endline="119" pcid="181"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYPolygonAnnotation.java" startline="115" endline="139" pcid="172"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBoxAndWhiskerRenderer.java" startline="482" endline="507" pcid="5510"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/ComparableObjectSeries.java" startline="203" endline="227" pcid="6347"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/AbstractXYItemLabelGenerator.java" startline="150" endline="177" pcid="2114"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/TextAnnotation.java" startline="88" endline="116" pcid="86"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/CategoryLineAnnotation.java" startline="138" endline="165" pcid="34"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYImageAnnotation.java" startline="94" endline="118" pcid="128"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/CategoryItemEntity.java" startline="85" endline="112" pcid="1760"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialTextAnnotation.java" startline="105" endline="132" pcid="3179"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYShapeRenderer.java" startline="297" endline="327" pcid="5675"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYTitleAnnotation.java" startline="162" endline="192" pcid="229"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYPointerAnnotation.java" startline="181" endline="214" pcid="159"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BoxAndWhiskerRenderer.java" startline="521" endline="555" pcid="4727"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PieLabelRecord.java" startline="127" endline="160" pcid="3559"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/MatrixSeries.java" startline="95" endline="117" pcid="8056"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java" startline="174" endline="184" pcid="7106"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java" startline="813" endline="840" pcid="5542"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/MeterNeedle.java" startline="195" endline="225" pcid="2392"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/ScatterRenderer.java" startline="293" endline="324" pcid="4915"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/AbstractBlock.java" startline="295" endline="325" pcid="1124"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/BoxAndWhiskerItem.java" startline="136" endline="175" pcid="7017"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/ArcDialFrame.java" startline="162" endline="192" pcid="3053"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CyclicNumberAxis.java" startline="753" endline="785" pcid="510"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultHighLowDataset.java" startline="175" endline="205" pcid="7895"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeries.java" startline="527" endline="561" pcid="7653"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ColorPalette.java" startline="235" endline="279" pcid="2716"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYDataImageAnnotation.java" startline="112" endline="142" pcid="110"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYDrawableAnnotation.java" startline="74" endline="104" pcid="118"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimePeriodValues.java" startline="239" endline="268" pcid="7568"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYItemRenderer.java" startline="563" endline="607" pcid="5378"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XIntervalSeriesCollection.java" startline="157" endline="166" pcid="8161"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/AbstractDialLayer.java" startline="25" endline="34" pcid="3025"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/TickUnits.java" startline="88" endline="97" pcid="1014"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/YIntervalSeriesCollection.java" startline="153" endline="162" pcid="8391"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/VectorSeriesCollection.java" startline="143" endline="152" pcid="8127"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Year.java" startline="133" endline="142" pcid="7793"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYIntervalSeriesCollection.java" startline="164" endline="173" pcid="8261"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPlot.java" startline="311" endline="347" pcid="3125"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/TextTitle.java" startline="487" endline="523" pcid="6035"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/DefaultDrawingSupplier.java" startline="237" endline="278" pcid="3015"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" startline="786" endline="844" pcid="4606"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/CategoryPointerAnnotation.java" startline="167" endline="203" pcid="57"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYLineAnnotation.java" startline="98" endline="128" pcid="136"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/LegendTitle.java" startline="398" endline="437" pcid="5965"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/CandlestickRenderer.java" startline="479" endline="519" pcid="5207"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CompassPlot.java" startline="482" endline="524" pcid="2850"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer.java" startline="765" endline="816" pcid="4680"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBarRenderer.java" startline="702" endline="753" pcid="5473"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYTextAnnotation.java" startline="197" endline="242" pcid="212"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="877" endline="929" pcid="5167"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineAndShapeRenderer.java" startline="524" endline="574" pcid="4852"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/RingPlot.java" startline="281" endline="324" pcid="3961"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/PeriodAxis.java" startline="706" endline="751" pcid="834"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java" startline="502" endline="512" pcid="7060"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/StandardEntityCollection.java" startline="88" endline="97" pcid="1843"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYBoxAnnotation.java" startline="85" endline="118" pcid="94"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CategoryAxis.java" startline="788" endline="836" pcid="406"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/util/RelativeDateFormat.java" startline="247" endline="295" pcid="6212"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/StandardDialScale.java" startline="320" endline="380" pcid="3307"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Marker.java" startline="300" endline="348" pcid="3438"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/JFreeChart.java" startline="888" endline="939" pcid="2072"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/ValueAxis.java" startline="941" endline="993" pcid="1080"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialValueIndicator.java" startline="243" endline="295" pcid="3219"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Crosshair.java" startline="190" endline="246" pcid="2969"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Plot.java" startline="486" endline="544" pcid="3801"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DefaultValueDataset.java" startline="50" endline="59" pcid="6760"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/MatrixSeriesCollection.java" startline="110" endline="126" pcid="8067"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/FastScatterPlot.java" startline="410" endline="462" pcid="3362"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer.java" startline="678" endline="738" pcid="5651"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/MiddlePinNeedle.java" startline="60" endline="71" pcid="2397"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/HistogramBin.java" startline="60" endline="75" pcid="7143"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/ShipNeedle.java" startline="43" endline="54" pcid="2413"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/WindNeedle.java" startline="47" endline="58" pcid="2418"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="111" endline="122" pcid="518"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/MeterPlot.java" startline="746" endline="812" pcid="3503"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="10" similarity="80">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/AbstractXYAnnotation.java" startline="69" endline="78" pcid="19"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYShapeAnnotation.java" startline="121" endline="131" pcid="182"></source>
+</class>
+
+<class classid="3" nclones="5" nlines="15" similarity="72">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/CategoryPointerAnnotation.java" startline="205" endline="222" pcid="58"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/ArcDialFrame.java" startline="194" endline="210" pcid="3054"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/StandardDialScale.java" startline="382" endline="395" pcid="3308"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/StandardDialRange.java" startline="155" endline="167" pcid="3259"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/AxisSpace.java" startline="213" endline="224" pcid="340"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="13" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYBoxAnnotation.java" startline="120" endline="132" pcid="95"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYDrawableAnnotation.java" startline="106" endline="118" pcid="119"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="10" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYDataImageAnnotation.java" startline="31" endline="41" pcid="100"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYDrawableAnnotation.java" startline="29" endline="39" pcid="116"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="11" similarity="81">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/annotations/XYTitleAnnotation.java" startline="194" endline="204" pcid="230"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/needle/MeterNeedle.java" startline="229" endline="238" pcid="2393"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/Axis.java" startline="661" endline="673" pcid="293"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/Axis.java" startline="675" endline="687" pcid="294"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/Axis.java" startline="689" endline="700" pcid="295"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/Axis.java" startline="702" endline="713" pcid="296"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="82" similarity="74">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/Axis.java" startline="912" endline="997" pcid="301"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ThermometerPlot.java" startline="894" endline="977" pcid="4101"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="10" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/Axis.java" startline="1010" endline="1019" pcid="303"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/LegendGraphic.java" startline="407" endline="416" pcid="5921"></source>
+</class>
+
+<class classid="11" nclones="11" nlines="11" similarity="83">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/AxisLocation.java" startline="93" endline="104" pcid="322"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/HistogramType.java" startline="72" endline="81" pcid="7170"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/RangeType.java" startline="63" endline="72" pcid="6994"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DomainOrder.java" startline="62" endline="71" pcid="6446"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimePeriodAnchor.java" startline="66" endline="75" pcid="7540"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/util/XYCoordinateType.java" startline="33" endline="42" pcid="6229"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/LengthConstraintType.java" startline="63" endline="72" pcid="1264"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CategoryAnchor.java" startline="57" endline="66" pcid="358"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/DialShape.java" startline="60" endline="69" pcid="3316"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateTickMarkPosition.java" startline="59" endline="68" pcid="580"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/event/ChartChangeEventType.java" startline="63" endline="72" pcid="1884"></source>
+</class>
+
+<class classid="12" nclones="4" nlines="17" similarity="73">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/CategoryTick.java" startline="53" endline="71" pcid="450"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/SubCategoryAxis.java" startline="246" endline="264" pcid="961"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/XYItemEntity.java" startline="66" endline="81" pcid="1867"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/entity/ContourEntity.java" startline="43" endline="55" pcid="1790"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="276" endline="286" pcid="538"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="304" endline="314" pcid="540"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="28" similarity="96">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="876" endline="908" pcid="560"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="911" endline="943" pcid="561"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="76" similarity="85">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="987" endline="1087" pcid="564"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateAxis.java" startline="1090" endline="1185" pcid="565"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="19" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/DateTickUnitType.java" startline="83" endline="100" pcid="613"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarAxisLocation.java" startline="44" endline="63" pcid="3834"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="25" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogarithmicAxis.java" startline="170" endline="195" pcid="643"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogarithmicAxis.java" startline="198" endline="223" pcid="644"></source>
+</class>
+
+<class classid="18" nclones="3" nlines="20" similarity="75">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogarithmicAxis.java" startline="313" endline="340" pcid="646"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="146" endline="168" pcid="672"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogarithmicAxis.java" startline="344" endline="368" pcid="647"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="10" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="85" endline="95" pcid="665"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/NumberAxis.java" startline="137" endline="149" pcid="740"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="17" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="212" endline="231" pcid="675"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/NumberAxis.java" startline="343" endline="367" pcid="752"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="38" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="243" endline="285" pcid="677"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="286" endline="328" pcid="678"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="28" similarity="96">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="337" endline="368" pcid="680"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/LogAxis.java" startline="375" endline="405" pcid="682"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="19" similarity="78">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/NumberAxis.java" startline="265" endline="289" pcid="747"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/NumberAxis.java" startline="293" endline="317" pcid="748"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="26" similarity="88">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/SymbolAxis.java" startline="151" endline="185" pcid="976"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/SymbolAxis.java" startline="188" endline="222" pcid="977"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="62" similarity="96">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/SymbolAxis.java" startline="299" endline="373" pcid="980"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/axis/SymbolAxis.java" startline="377" endline="451" pcid="981"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="14" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/AbstractBlock.java" startline="222" endline="235" pcid="1116"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/AbstractBlock.java" startline="237" endline="250" pcid="1117"></source>
+</class>
+
+<class classid="27" nclones="4" nlines="30" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/CenterArrangement.java" startline="29" endline="61" pcid="1175"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="38" endline="68" pcid="1226"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/ColumnArrangement.java" startline="54" endline="86" pcid="1197"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/FlowArrangement.java" startline="54" endline="86" pcid="1213"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="31" similarity="93">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/ColumnArrangement.java" startline="177" endline="211" pcid="1202"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/FlowArrangement.java" startline="203" endline="236" pcid="1220"></source>
+</class>
+
+<class classid="29" nclones="4" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="113" endline="126" pcid="1229"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="161" endline="174" pcid="1232"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="129" endline="142" pcid="1230"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="145" endline="158" pcid="1231"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="23" similarity="78">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="212" endline="234" pcid="1234"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/block/GridArrangement.java" startline="237" endline="259" pcid="1235"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="130" endline="144" pcid="1297"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="330" endline="343" pcid="1302"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="14" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="152" endline="168" pcid="1299"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="346" endline="363" pcid="1303"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="17" similarity="94">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="540" endline="568" pcid="1312"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="744" endline="770" pcid="1322"></source>
+</class>
+
+<class classid="34" nclones="3" nlines="18" similarity="88">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="665" endline="694" pcid="1318"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="705" endline="733" pcid="1320"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartFactory.java" startline="781" endline="807" pcid="1324"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="582" endline="592" pcid="1391"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="600" endline="610" pcid="1393"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1359" endline="1369" pcid="1441"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1400" endline="1410" pcid="1444"></source>
+</class>
+
+<class classid="37" nclones="4" nlines="10" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1372" endline="1383" pcid="1442"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1413" endline="1424" pcid="1445"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1386" endline="1397" pcid="1443"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1427" endline="1438" pcid="1446"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1493" endline="1504" pcid="1449"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1507" endline="1518" pcid="1450"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="14" similarity="85">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1618" endline="1637" pcid="1464"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartPanel.java" startline="1640" endline="1660" pcid="1465"></source>
+</class>
+
+<class classid="40" nclones="4" nlines="11" similarity="72">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ChartRenderingInfo.java" startline="103" endline="113" pcid="1495"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java" startline="125" endline="135" pcid="2100"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/AbstractCategoryItemLabelGenerator.java" startline="169" endline="179" pcid="2091"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/HighLowItemLabelGenerator.java" startline="93" endline="103" pcid="2147"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="11" similarity="72">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/ClipPath.java" startline="76" endline="91" pcid="1535"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/BoxAndWhiskerItem.java" startline="45" endline="65" pcid="7005"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/demo/BarChartDemo1.java" startline="41" endline="55" pcid="1559"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/fx/demo/BarChartFXDemo1.java" startline="28" endline="42" pcid="1916"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="31" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/demo/PieChartDemo1.java" startline="42" endline="80" pcid="1563"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/fx/demo/PieChartFXDemo1.java" startline="31" endline="69" pcid="1922"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="10" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultAxisEditor.java" startline="256" endline="265" pcid="1605"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultTitleEditor.java" startline="145" endline="156" pcid="1669"></source>
+</class>
+
+<class classid="45" nclones="4" nlines="11" similarity="83">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultLogAxisEditor.java" startline="59" endline="70" pcid="1630"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultPolarPlotEditor.java" startline="78" endline="87" pcid="1662"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultNumberAxisEditor.java" startline="97" endline="109" pcid="1637"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultPolarPlotEditor.java" startline="88" endline="99" pcid="1663"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="13" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultValueAxisEditor.java" startline="186" endline="198" pcid="1691"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/editor/DefaultValueAxisEditor.java" startline="199" endline="211" pcid="1692"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="10" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/fx/demo/PieChartFXDemo1.java" startline="78" endline="87" pcid="1924"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/fx/demo/TimeSeriesChartFXDemo1.java" startline="356" endline="365" pcid="1928"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="10" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/fx/interaction/AnchorHandlerFX.java" startline="15" endline="24" pcid="1943"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/fx/interaction/DispatchHandlerFX.java" startline="21" endline="30" pcid="1951"></source>
+</class>
+
+<class classid="49" nclones="3" nlines="18" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/HashUtilities.java" startline="95" endline="115" pcid="1983"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/HashUtilities.java" startline="118" endline="138" pcid="1984"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/HashUtilities.java" startline="141" endline="161" pcid="1985"></source>
+</class>
+
+<class classid="50" nclones="7" nlines="10" similarity="72">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/JFreeChart.java" startline="311" endline="320" pcid="2021"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/SpiderWebPlot.java" startline="237" endline="249" pcid="3974"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/MultiplePiePlot.java" startline="104" endline="116" pcid="3510"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPlot.java" startline="70" endline="79" pcid="3094"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPlot.java" startline="57" endline="66" pcid="3092"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/WaferMapPlot.java" startline="112" endline="124" pcid="4125"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/WaferMapPlot.java" startline="127" endline="136" pcid="4126"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/JFreeChart.java" startline="494" endline="508" pcid="2044"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/JFreeChart.java" startline="516" endline="530" pcid="2046"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/JFreeChart.java" startline="840" endline="850" pcid="2066"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/Title.java" startline="190" endline="200" pcid="6056"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="25" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/BubbleXYItemLabelGenerator.java" startline="88" endline="119" pcid="2132"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/StandardXYZToolTipGenerator.java" startline="84" endline="115" pcid="2275"></source>
+</class>
+
+<class classid="54" nclones="3" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/CustomXYToolTipGenerator.java" startline="43" endline="57" pcid="2138"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/CustomCategoryURLGenerator.java" startline="39" endline="50" pcid="6064"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/CustomXYURLGenerator.java" startline="43" endline="54" pcid="6080"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="24" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/IntervalCategoryItemLabelGenerator.java" startline="45" endline="70" pcid="2153"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/IntervalCategoryToolTipGenerator.java" startline="41" endline="66" pcid="2157"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="61" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/IntervalXYItemLabelGenerator.java" startline="59" endline="126" pcid="2164"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/labels/IntervalXYToolTipGenerator.java" startline="36" endline="99" pcid="2173"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="67" similarity="71">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/LegendItem.java" startline="512" endline="580" pcid="2336"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarPlot.java" startline="779" endline="852" pcid="3914"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="23" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/PaintMap.java" startline="57" endline="79" pcid="2425"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/StrokeMap.java" startline="57" endline="79" pcid="5853"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/PaintMap.java" startline="91" endline="102" pcid="2427"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/StrokeMap.java" startline="91" endline="102" pcid="5855"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/PaintMap.java" startline="105" endline="115" pcid="2428"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/StrokeMap.java" startline="105" endline="115" pcid="5856"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="52" endline="63" pcid="2437"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="80" endline="91" pcid="2441"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="35" similarity="97">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="138" endline="177" pcid="2445"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="178" endline="217" pcid="2446"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="21" similarity="80">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="267" endline="287" pcid="2448"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="288" endline="308" pcid="2449"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="17" similarity="76">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="309" endline="325" pcid="2450"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/panel/CrosshairOverlay.java" startline="326" endline="342" pcid="2451"></source>
+</class>
+
+<class classid="65" nclones="4" nlines="11" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="238" endline="248" pcid="2482"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="244" endline="254" pcid="4142"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="372" endline="382" pcid="4164"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="352" endline="362" pcid="2500"></source>
+</class>
+
+<class classid="66" nclones="5" nlines="17" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="255" endline="271" pcid="2485"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="369" endline="385" pcid="2503"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="261" endline="277" pcid="4145"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarPlot.java" startline="157" endline="173" pcid="3842"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="386" endline="402" pcid="4166"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="477" endline="488" pcid="2521"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/dial/DialPlot.java" startline="175" endline="186" pcid="3114"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="21" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="511" endline="531" pcid="2526"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarPlot.java" startline="459" endline="479" pcid="3898"></source>
+</class>
+
+<class classid="69" nclones="4" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="532" endline="544" pcid="2527"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1645" endline="1657" pcid="4287"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1632" endline="1644" pcid="4286"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="556" endline="568" pcid="2530"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="11" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="614" endline="624" pcid="2539"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="588" endline="598" pcid="4198"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="24" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="867" endline="893" pcid="2584"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="843" endline="869" pcid="4250"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="21" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="894" endline="914" pcid="2585"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1021" endline="1041" pcid="2597"></source>
+</class>
+
+<class classid="73" nclones="4" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="918" endline="930" pcid="2587"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1797" endline="1809" pcid="4297"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1810" endline="1822" pcid="4298"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1045" endline="1057" pcid="2599"></source>
+</class>
+
+<class classid="74" nclones="4" nlines="26" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="931" endline="958" pcid="2588"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="812" endline="839" pcid="4248"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="949" endline="976" pcid="4260"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1058" endline="1085" pcid="2600"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="16" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="968" endline="986" pcid="2592"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="879" endline="897" pcid="4254"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="22" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="996" endline="1020" pcid="2596"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="924" endline="948" pcid="4259"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="18" similarity="94">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1095" endline="1114" pcid="2604"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="986" endline="1006" pcid="4264"></source>
+</class>
+
+<class classid="78" nclones="2" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1501" endline="1514" pcid="2644"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1515" endline="1528" pcid="2645"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="15" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1746" endline="1761" pcid="2653"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="1762" endline="1777" pcid="2654"></source>
+</class>
+
+<class classid="80" nclones="3" nlines="17" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CategoryPlot.java" startline="2016" endline="2034" pcid="2684"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="2311" endline="2329" pcid="4352"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="2277" endline="2295" pcid="4349"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="18" similarity="94">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="71" endline="88" pcid="2724"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="73" endline="90" pcid="2779"></source>
+</class>
+
+<class classid="82" nclones="4" nlines="22" similarity="77">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="91" endline="112" pcid="2725"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="113" endline="134" pcid="2756"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="93" endline="120" pcid="2780"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="117" endline="135" pcid="2803"></source>
+</class>
+
+<class classid="83" nclones="3" nlines="10" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="124" endline="133" pcid="2727"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="346" endline="355" pcid="2812"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="296" endline="305" pcid="2765"></source>
+</class>
+
+<class classid="84" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="144" endline="156" pcid="2729"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="288" endline="300" pcid="2809"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="160" endline="172" pcid="2730"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="304" endline="317" pcid="2810"></source>
+</class>
+
+<class classid="86" nclones="3" nlines="10" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="324" endline="333" pcid="2735"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="381" endline="390" pcid="2815"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="261" endline="270" pcid="2785"></source>
+</class>
+
+<class classid="87" nclones="4" nlines="15" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="343" endline="357" pcid="2737"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="230" endline="244" pcid="2760"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="262" endline="277" pcid="2807"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="288" endline="302" pcid="2787"></source>
+</class>
+
+<class classid="88" nclones="4" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="388" endline="399" pcid="2740"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="315" endline="324" pcid="2789"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="417" endline="426" pcid="2818"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="325" endline="334" pcid="2769"></source>
+</class>
+
+<class classid="89" nclones="4" nlines="12" similarity="71">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="428" endline="439" pcid="2743"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="455" endline="470" pcid="2821"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="353" endline="368" pcid="2792"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="373" endline="385" pcid="2773"></source>
+</class>
+
+<class classid="90" nclones="3" nlines="53" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="139" endline="194" pcid="2758"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="148" endline="214" pcid="2805"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="133" endline="197" pcid="2782"></source>
+</class>
+
+<class classid="91" nclones="3" nlines="32" similarity="78">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="196" endline="228" pcid="2759"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="218" endline="258" pcid="2806"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="201" endline="246" pcid="2783"></source>
+</class>
+
+<class classid="92" nclones="2" nlines="20" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="275" endline="295" pcid="2764"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="321" endline="343" pcid="2811"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="274" endline="284" pcid="2786"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="394" endline="404" pcid="2816"></source>
+</class>
+
+<class classid="94" nclones="4" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ContourPlot.java" startline="196" endline="212" pcid="2861"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/MeterPlot.java" startline="370" endline="386" pcid="3487"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="339" endline="353" pcid="3564"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ThermometerPlot.java" startline="257" endline="273" pcid="4040"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="17" similarity="94">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ContourPlot.java" startline="1053" endline="1078" pcid="2916"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ContourPlot.java" startline="1081" endline="1106" pcid="2917"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="20" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Crosshair.java" startline="248" endline="266" pcid="2970"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="1691" endline="1710" pcid="4525"></source>
+</class>
+
+<class classid="97" nclones="2" nlines="18" similarity="88">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/DefaultDrawingSupplier.java" startline="281" endline="297" pcid="3016"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="445" endline="461" pcid="6297"></source>
+</class>
+
+<class classid="98" nclones="2" nlines="17" similarity="94">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/FastScatterPlot.java" startline="223" endline="243" pcid="3343"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/FastScatterPlot.java" startline="244" endline="264" pcid="3344"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="21" similarity="95">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/FastScatterPlot.java" startline="275" endline="294" pcid="3346"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/FastScatterPlot.java" startline="295" endline="314" pcid="3347"></source>
+</class>
+
+<class classid="100" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/FastScatterPlot.java" startline="382" endline="394" pcid="3360"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/FastScatterPlot.java" startline="396" endline="408" pcid="3361"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PieLabelLinkStyle.java" startline="60" endline="70" pcid="3544"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AreaRendererEndType.java" startline="57" endline="67" pcid="4568"></source>
+</class>
+
+<class classid="102" nclones="3" nlines="22" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="456" endline="480" pcid="3581"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="645" endline="670" pcid="3604"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="568" endline="593" pcid="3595"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="33" similarity="87">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="1496" endline="1541" pcid="3681"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="1544" endline="1590" pcid="3682"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="32" similarity="96">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="1683" endline="1723" pcid="3686"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PiePlot.java" startline="1726" endline="1767" pcid="3687"></source>
+</class>
+
+<class classid="105" nclones="3" nlines="16" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Plot.java" startline="188" endline="203" pcid="3759"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Plot.java" startline="291" endline="306" pcid="3776"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Plot.java" startline="272" endline="287" pcid="3774"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="34" similarity="79">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Plot.java" startline="573" endline="607" pcid="3805"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/Plot.java" startline="608" endline="642" pcid="3806"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarPlot.java" startline="217" endline="228" pcid="3853"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="462" endline="473" pcid="4178"></source>
+</class>
+
+<class classid="108" nclones="3" nlines="11" similarity="81">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarPlot.java" startline="232" endline="241" pcid="3855"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="133" endline="142" pcid="6272"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="333" endline="342" pcid="6286"></source>
+</class>
+
+<class classid="109" nclones="2" nlines="15" similarity="81">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/PolarPlot.java" startline="258" endline="272" pcid="3860"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="540" endline="556" pcid="4191"></source>
+</class>
+
+<class classid="110" nclones="6" nlines="10" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/SpiderWebPlot.java" startline="436" endline="445" pcid="4003"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="1122" endline="1132" pcid="4482"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" startline="240" endline="249" pcid="4584"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="1068" endline="1078" pcid="4475"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/SpiderWebPlot.java" startline="478" endline="490" pcid="4009"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" startline="151" endline="163" pcid="4574"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="18" similarity="94">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/ThermometerPlot.java" startline="980" endline="996" pcid="4102"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DataUtilities.java" startline="13" endline="29" pcid="6380"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="17" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="795" endline="811" pcid="4247"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="904" endline="920" pcid="4257"></source>
+</class>
+
+<class classid="113" nclones="2" nlines="22" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1055" endline="1082" pcid="4274"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1083" endline="1110" pcid="4275"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1323" endline="1335" pcid="4278"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1336" endline="1348" pcid="4279"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="22" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1447" endline="1471" pcid="4282"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1472" endline="1496" pcid="4283"></source>
+</class>
+
+<class classid="116" nclones="2" nlines="18" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1753" endline="1771" pcid="4293"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1772" endline="1790" pcid="4294"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="13" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1823" endline="1838" pcid="4299"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1865" endline="1880" pcid="4301"></source>
+</class>
+
+<class classid="118" nclones="2" nlines="18" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1924" endline="1941" pcid="4304"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1942" endline="1959" pcid="4305"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1960" endline="1970" pcid="4306"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="1979" endline="1989" pcid="4308"></source>
+</class>
+
+<class classid="120" nclones="2" nlines="17" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="2236" endline="2252" pcid="4346"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/plot/XYPlot.java" startline="2254" endline="2270" pcid="4347"></source>
+</class>
+
+<class classid="121" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="325" endline="336" pcid="4375"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="378" endline="389" pcid="4382"></source>
+</class>
+
+<class classid="122" nclones="6" nlines="17" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="435" endline="454" pcid="4390"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="667" endline="686" pcid="4421"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="517" endline="536" pcid="4401"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="826" endline="845" pcid="4442"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="592" endline="611" pcid="4411"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="750" endline="769" pcid="4432"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="10" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="962" endline="971" pcid="4460"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/AbstractRenderer.java" startline="1012" endline="1021" pcid="4467"></source>
+</class>
+
+<class classid="124" nclones="2" nlines="18" similarity="88">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" startline="332" endline="350" pcid="4594"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="265" endline="282" pcid="5152"></source>
+</class>
+
+<class classid="125" nclones="3" nlines="20" similarity="80">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" startline="444" endline="470" pcid="4600"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="487" endline="510" pcid="5161"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="461" endline="485" pcid="5160"></source>
+</class>
+
+<class classid="126" nclones="2" nlines="18" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" startline="884" endline="910" pcid="4610"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="958" endline="981" pcid="5170"></source>
+</class>
+
+<class classid="127" nclones="3" nlines="27" similarity="77">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" startline="1127" endline="1156" pcid="4622"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="1001" endline="1029" pcid="5172"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/DefaultPolarItemRenderer.java" startline="144" endline="172" pcid="5022"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="35" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/AreaRenderer.java" startline="57" endline="100" pcid="4630"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BoxAndWhiskerRenderer.java" startline="134" endline="172" pcid="4717"></source>
+</class>
+
+<class classid="129" nclones="2" nlines="30" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer.java" startline="346" endline="382" pcid="4670"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LevelRenderer.java" startline="84" endline="119" pcid="4801"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="21" similarity="77">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer.java" startline="385" endline="413" pcid="4671"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LevelRenderer.java" startline="122" endline="152" pcid="4802"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="37" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer.java" startline="607" endline="665" pcid="4677"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBarRenderer.java" startline="523" endline="579" pcid="5467"></source>
+</class>
+
+<class classid="132" nclones="2" nlines="70" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer.java" startline="668" endline="744" pcid="4678"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBarRenderer.java" startline="582" endline="657" pcid="5468"></source>
+</class>
+
+<class classid="133" nclones="2" nlines="54" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer3D.java" startline="136" endline="205" pcid="4690"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineRenderer3D.java" startline="108" endline="177" pcid="4861"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="25" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer3D.java" startline="209" endline="239" pcid="4691"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineRenderer3D.java" startline="181" endline="211" pcid="4862"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="27" similarity="78">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer3D.java" startline="243" endline="273" pcid="4692"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineRenderer3D.java" startline="215" endline="243" pcid="4863"></source>
+</class>
+
+<class classid="136" nclones="2" nlines="32" similarity="81">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/BarRenderer3D.java" startline="277" endline="319" pcid="4693"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineRenderer3D.java" startline="247" endline="288" pcid="4864"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="56" similarity="98">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java" startline="43" endline="124" pcid="4769"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java" startline="43" endline="123" pcid="5254"></source>
+</class>
+
+<class classid="138" nclones="4" nlines="12" similarity="91">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java" startline="128" endline="145" pcid="4770"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StandardBarPainter.java" startline="51" endline="68" pcid="4961"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java" startline="127" endline="144" pcid="5255"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYBarPainter.java" startline="51" endline="68" pcid="5338"></source>
+</class>
+
+<class classid="139" nclones="4" nlines="36" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java" startline="148" endline="184" pcid="4771"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYBarPainter.java" startline="71" endline="107" pcid="5339"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java" startline="147" endline="183" pcid="5256"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StandardBarPainter.java" startline="71" endline="107" pcid="4962"></source>
+</class>
+
+<class classid="140" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java" startline="187" endline="203" pcid="4772"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java" startline="186" endline="202" pcid="5257"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/GradientBarPainter.java" startline="206" endline="222" pcid="4773"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/GradientXYBarPainter.java" startline="205" endline="221" pcid="5258"></source>
+</class>
+
+<class classid="142" nclones="5" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineAndShapeRenderer.java" startline="102" endline="112" pcid="4812"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/LineAndShapeRenderer.java" startline="159" endline="169" pcid="4821"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer.java" startline="258" endline="268" pcid="5623"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer.java" startline="201" endline="211" pcid="5614"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYLineAndShapeRenderer.java" startline="132" endline="142" pcid="5603"></source>
+</class>
+
+<class classid="143" nclones="3" nlines="10" similarity="80">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedAreaRenderer.java" startline="64" endline="73" pcid="4924"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java" startline="53" endline="62" pcid="5215"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer.java" startline="73" endline="82" pcid="4936"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="14" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedAreaRenderer.java" startline="298" endline="311" pcid="4928"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java" startline="336" endline="349" pcid="5323"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="25" similarity="96">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer.java" startline="86" endline="116" pcid="4937"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer3D.java" startline="103" endline="133" pcid="4949"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="65" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer3D.java" startline="230" endline="315" pcid="4953"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer3D.java" startline="391" endline="477" pcid="4955"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="59" similarity="79">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer3D.java" startline="318" endline="388" pcid="4954"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StackedBarRenderer3D.java" startline="480" endline="551" pcid="4956"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="18" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StandardBarPainter.java" startline="26" endline="47" pcid="4960"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/StandardXYBarPainter.java" startline="26" endline="47" pcid="5337"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="90" similarity="95">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StatisticalBarRenderer.java" startline="112" endline="233" pcid="4972"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/category/StatisticalBarRenderer.java" startline="236" endline="357" pcid="4973"></source>
+</class>
+
+<class classid="150" nclones="2" nlines="64" similarity="70">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/RendererUtilities.java" startline="13" endline="76" pcid="5103"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/RendererUtilities.java" startline="79" endline="144" pcid="5104"></source>
+</class>
+
+<class classid="151" nclones="2" nlines="13" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/WaferMapRenderer.java" startline="234" endline="245" pcid="5119"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/WaferMapRenderer.java" startline="248" endline="259" pcid="5120"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="10" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="114" endline="124" pcid="5127"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="145" endline="155" pcid="5132"></source>
+</class>
+
+<class classid="153" nclones="2" nlines="15" similarity="80">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="393" endline="412" pcid="5157"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java" startline="414" endline="432" pcid="5158"></source>
+</class>
+
+<class classid="154" nclones="2" nlines="45" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/VectorRenderer.java" startline="39" endline="79" pcid="5385"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/VectorRenderer.java" startline="83" endline="123" pcid="5386"></source>
+</class>
+
+<class classid="155" nclones="2" nlines="32" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYAreaRenderer.java" startline="145" endline="179" pcid="5409"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYAreaRenderer2.java" startline="71" endline="105" pcid="5423"></source>
+</class>
+
+<class classid="156" nclones="3" nlines="11" similarity="81">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYBlockRenderer.java" startline="150" endline="160" pcid="5486"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYShapeRenderer.java" startline="175" endline="186" pcid="5670"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/renderer/xy/XYShapeRenderer.java" startline="160" endline="171" pcid="5669"></source>
+</class>
+
+<class classid="157" nclones="2" nlines="14" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/servlet/ServletUtilities.java" startline="65" endline="82" pcid="5744"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/servlet/ServletUtilities.java" startline="95" endline="113" pcid="5746"></source>
+</class>
+
+<class classid="158" nclones="3" nlines="34" similarity="75">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/LegendGraphic.java" startline="239" endline="273" pcid="5914"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/ShortTextTitle.java" startline="26" endline="64" pcid="5998"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/TextTitle.java" startline="243" endline="277" pcid="6026"></source>
+</class>
+
+<class classid="159" nclones="2" nlines="33" similarity="96">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/TextTitle.java" startline="416" endline="448" pcid="6033"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/title/TextTitle.java" startline="451" endline="483" pcid="6034"></source>
+</class>
+
+<class classid="160" nclones="6" nlines="33" similarity="71">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/CustomCategoryURLGenerator.java" startline="69" endline="103" pcid="6067"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DefaultKeyedValues.java" startline="216" endline="250" pcid="6416"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyedObjects.java" startline="157" endline="191" pcid="6910"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/urls/CustomXYURLGenerator.java" startline="73" endline="108" pcid="6083"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DefaultPieDataset.java" startline="131" endline="166" pcid="6752"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/CategoryToPieDataset.java" startline="154" endline="186" pcid="6241"></source>
+</class>
+
+<class classid="161" nclones="2" nlines="11" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/util/ExportUtils.java" startline="108" endline="120" pcid="6150"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/chart/util/ExportUtils.java" startline="121" endline="133" pcid="6151"></source>
+</class>
+
+<class classid="162" nclones="2" nlines="12" similarity="75">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/CategoryToPieDataset.java" startline="74" endline="86" pcid="6235"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/CategoryToPieDataset.java" startline="90" endline="101" pcid="6236"></source>
+</class>
+
+<class classid="163" nclones="3" nlines="40" similarity="72">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultCategoryDataset.java" startline="165" endline="195" pcid="6264"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DefaultKeyedValues2D.java" startline="266" endline="311" pcid="6439"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyedObjects2D.java" startline="245" endline="284" pcid="6931"></source>
+</class>
+
+<class classid="164" nclones="3" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="206" endline="216" pcid="6278"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="226" endline="236" pcid="6280"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="260" endline="270" pcid="6282"></source>
+</class>
+
+<class classid="165" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="291" endline="309" pcid="6284"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/category/DefaultIntervalCategoryDataset.java" startline="312" endline="330" pcid="6285"></source>
+</class>
+
+<class classid="166" nclones="9" nlines="12" similarity="73">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/ComparableObjectItem.java" startline="47" endline="62" pcid="6325"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Year.java" startline="155" endline="174" pcid="7795"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Day.java" startline="211" endline="228" pcid="7265"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesDataItem.java" startline="78" endline="93" pcid="7709"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Month.java" startline="184" endline="206" pcid="7414"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Quarter.java" startline="196" endline="218" pcid="7491"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Hour.java" startline="219" endline="239" pcid="7353"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Minute.java" startline="221" endline="241" pcid="7394"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Week.java" startline="254" endline="276" pcid="7774"></source>
+</class>
+
+<class classid="167" nclones="2" nlines="14" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/ComparableObjectSeries.java" startline="132" endline="146" pcid="6339"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeries.java" startline="427" endline="439" pcid="8311"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="20" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/ComparableObjectSeries.java" startline="231" endline="250" pcid="6348"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeries.java" startline="517" endline="536" pcid="8316"></source>
+</class>
+
+<class classid="169" nclones="2" nlines="10" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/contour/DefaultContourDataset.java" startline="131" endline="139" pcid="6355"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/contour/DefaultContourDataset.java" startline="143" endline="151" pcid="6356"></source>
+</class>
+
+<class classid="170" nclones="2" nlines="13" similarity="92">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DataUtilities.java" startline="46" endline="57" pcid="6382"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DataUtilities.java" startline="78" endline="89" pcid="6384"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="16" similarity="93">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DataUtilities.java" startline="60" endline="75" pcid="6383"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DataUtilities.java" startline="92" endline="107" pcid="6385"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="16" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DefaultKeyedValues.java" startline="174" endline="192" pcid="6414"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DefaultKeyedValues.java" startline="195" endline="212" pcid="6415"></source>
+</class>
+
+<class classid="173" nclones="2" nlines="13" similarity="78">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/DefaultKeyedValues2D.java" startline="60" endline="71" pcid="6423"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/KeyedObjects2D.java" startline="44" endline="57" pcid="6915"></source>
+</class>
+
+<class classid="174" nclones="5" nlines="13" similarity="84">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/function/LineFunction2D.java" startline="42" endline="54" pcid="6451"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/CategoryTableXYDataset.java" startline="118" endline="130" pcid="7876"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/function/PowerFunction2D.java" startline="41" endline="53" pcid="6469"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/Range.java" startline="209" endline="221" pcid="6986"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/function/NormalDistributionFunction2D.java" startline="54" endline="66" pcid="6457"></source>
+</class>
+
+<class classid="175" nclones="2" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/TaskSeriesCollection.java" startline="199" endline="211" pcid="6548"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/TaskSeriesCollection.java" startline="223" endline="235" pcid="6550"></source>
+</class>
+
+<class classid="176" nclones="3" nlines="14" similarity="85">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/TaskSeriesCollection.java" startline="297" endline="311" pcid="6557"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/TaskSeriesCollection.java" startline="323" endline="337" pcid="6559"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/gantt/TaskSeriesCollection.java" startline="349" endline="362" pcid="6561"></source>
+</class>
+
+<class classid="177" nclones="2" nlines="10" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="59" endline="68" pcid="6654"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="74" endline="83" pcid="6656"></source>
+</class>
+
+<class classid="178" nclones="3" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="269" endline="280" pcid="6669"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="348" endline="359" pcid="6674"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="376" endline="387" pcid="6677"></source>
+</class>
+
+<class classid="179" nclones="2" nlines="11" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="281" endline="293" pcid="6670"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="360" endline="372" pcid="6675"></source>
+</class>
+
+<class classid="180" nclones="2" nlines="34" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="870" endline="902" pcid="6694"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="903" endline="935" pcid="6695"></source>
+</class>
+
+<class classid="181" nclones="2" nlines="32" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="936" endline="966" pcid="6696"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="1001" endline="1031" pcid="6698"></source>
+</class>
+
+<class classid="182" nclones="2" nlines="35" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="967" endline="1000" pcid="6697"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="1032" endline="1065" pcid="6699"></source>
+</class>
+
+<class classid="183" nclones="2" nlines="28" similarity="96">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="1146" endline="1171" pcid="6703"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/DatasetUtilities.java" startline="1172" endline="1197" pcid="6704"></source>
+</class>
+
+<class classid="184" nclones="2" nlines="10" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/HeatMapUtilities.java" startline="11" endline="20" pcid="6762"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/general/HeatMapUtilities.java" startline="21" endline="30" pcid="6763"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="10" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/json/JSONUtils.java" startline="14" endline="23" pcid="6886"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/json/JSONUtils.java" startline="46" endline="55" pcid="6888"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="17" similarity="88">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/BoxAndWhiskerCalculator.java" startline="94" endline="112" pcid="7003"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/BoxAndWhiskerCalculator.java" startline="115" endline="133" pcid="7004"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="13" similarity="84">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/HistogramDataset.java" startline="108" endline="120" pcid="7150"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/HistogramDataset.java" startline="123" endline="135" pcid="7151"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="10" similarity="80">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/statistics/HistogramDataset.java" startline="251" endline="259" pcid="7165"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYIntervalSeriesCollection.java" startline="177" endline="186" pcid="8262"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="11" similarity="81">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Day.java" startline="131" endline="141" pcid="7258"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Day.java" startline="145" endline="155" pcid="7259"></source>
+</class>
+
+<class classid="190" nclones="2" nlines="24" similarity="76">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/FixedMillisecond.java" startline="86" endline="115" pcid="7323"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Millisecond.java" startline="194" endline="225" pcid="7371"></source>
+</class>
+
+<class classid="191" nclones="6" nlines="14" similarity="71">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Hour.java" startline="122" endline="135" pcid="7345"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Hour.java" startline="139" endline="152" pcid="7346"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Quarter.java" startline="131" endline="143" pcid="7486"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Minute.java" startline="123" endline="136" pcid="7387"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Minute.java" startline="140" endline="153" pcid="7388"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Quarter.java" startline="147" endline="159" pcid="7487"></source>
+</class>
+
+<class classid="192" nclones="2" nlines="12" similarity="91">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Millisecond.java" startline="118" endline="129" pcid="7366"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Millisecond.java" startline="133" endline="144" pcid="7367"></source>
+</class>
+
+<class classid="193" nclones="2" nlines="13" similarity="76">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Month.java" startline="112" endline="124" pcid="7408"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Month.java" startline="128" endline="140" pcid="7409"></source>
+</class>
+
+<class classid="194" nclones="2" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Month.java" startline="274" endline="286" pcid="7418"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Week.java" startline="326" endline="339" pcid="7776"></source>
+</class>
+
+<class classid="195" nclones="2" nlines="12" similarity="91">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Second.java" startline="113" endline="124" pcid="7518"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Second.java" startline="128" endline="139" pcid="7519"></source>
+</class>
+
+<class classid="196" nclones="2" nlines="12" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesCollection.java" startline="156" endline="166" pcid="7677"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="121" endline="131" pcid="8330"></source>
+</class>
+
+<class classid="197" nclones="3" nlines="10" similarity="80">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesCollection.java" startline="195" endline="206" pcid="7681"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultTableXYDataset.java" startline="191" endline="201" pcid="7954"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="80" endline="88" pcid="8323"></source>
+</class>
+
+<class classid="198" nclones="2" nlines="13" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesCollection.java" startline="401" endline="416" pcid="7698"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="339" endline="353" pcid="8353"></source>
+</class>
+
+<class classid="199" nclones="2" nlines="11" similarity="81">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesTableModel.java" startline="51" endline="61" pcid="7715"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/TimeSeriesTableModel.java" startline="65" endline="77" pcid="7716"></source>
+</class>
+
+<class classid="200" nclones="2" nlines="12" similarity="83">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Week.java" startline="188" endline="199" pcid="7769"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/time/Week.java" startline="203" endline="214" pcid="7770"></source>
+</class>
+
+<class classid="201" nclones="2" nlines="13" similarity="78">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xml/CategoryDatasetHandler.java" startline="34" endline="52" pcid="7802"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xml/PieDatasetHandler.java" startline="34" endline="50" pcid="7829"></source>
+</class>
+
+<class classid="202" nclones="2" nlines="15" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xml/DatasetReader.java" startline="29" endline="46" pcid="7810"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xml/DatasetReader.java" startline="56" endline="74" pcid="7812"></source>
+</class>
+
+<class classid="203" nclones="3" nlines="24" similarity="79">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultIntervalXYDataset.java" startline="132" endline="160" pcid="7913"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultXYDataset.java" startline="93" endline="118" pcid="8002"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultXYZDataset.java" startline="106" endline="132" pcid="8019"></source>
+</class>
+
+<class classid="204" nclones="2" nlines="31" similarity="84">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultXYDataset.java" startline="132" endline="158" pcid="8004"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/DefaultXYZDataset.java" startline="146" endline="177" pcid="8021"></source>
+</class>
+
+<class classid="205" nclones="2" nlines="21" similarity="90">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="192" endline="210" pcid="8341"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="212" endline="231" pcid="8342"></source>
+</class>
+
+<class classid="206" nclones="2" nlines="17" similarity="100">
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="305" endline="320" pcid="8351"></source>
+<source file="/Users/Chaiyong/Desktop/iwsc2017/systems/jfreechart/src/main/java/org/jfree/data/xy/XYSeriesCollection.java" startline="322" endline="337" pcid="8352"></source>
+</class>
+
+</clones>
