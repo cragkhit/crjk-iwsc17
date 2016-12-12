@@ -58,12 +58,12 @@
 <h3>
 <a id="clone-oracle" class="anchor" href="#clone-oracle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clone Oracle</h3>
 
-<p>The 326 clone pairs manually validated can be downloaded <a href="clone_oracle.csv">here</a>.</p>
+<p>The 326 clone pairs manually validated can be downloaded <a href="downloads/clone_oracle.csv">here</a>.</p>
 
 <h3>
 <a id="clone-mapper" class="anchor" href="#clone-mapper" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clone Mapper</h3>
 
-<p>The source code of clone mapper tool can be downloaded <a href="clone_mapper_src.zip">here</a>.</p>
+<p>The source code of clone mapper tool can be downloaded <a href="downloads/clone_mapper_src.zip">here</a>.</p>
 
 <h3>
 <a id="systems" class="anchor" href="#systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Systems</h3>
@@ -71,10 +71,55 @@
 <p>The three selected systems for our study (junit4, jfreechart, tomcat) can be downloaded below:</p>
 
 <ul>
-<li><a href="systems/junit4.zip">junit4</a></li>
-<li><a href="systems/jfreechart.zip">jfreechart</a></li>
-<li><a href="systems/tomcat.zip">tomcat</a></li>
+<li>JUnit4: <a href="downloads/systems/junit4.zip">original</a> | <a href="downloads/decompile/junit4.zip">decompiled</a>
+</li>
+<li>JFreeChart: <a href="downloads/systems/jfreechart.zip">original</a> | <a href="downloads/decompile/jfreechart.zip">decompiled</a>
+</li>
+<li>Tomcat: <a href="downloads/systems/tomcat.zip">original</a> | <a href="downloads/decompile/tomcat.zip">decompiled</a>
+</li>
 </ul>
+
+<h2>
+<a id="replicate-the-study" class="anchor" href="#replicate-the-study" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Replicate the Study</h2>
+
+<ol>
+<li>Clone the repo.</li>
+<li>Download <a href="https://www.txl.ca/nicaddownload.html">NiCad 4.0</a> and install it on your machine.</li>
+<li>Modify three NiCad's configuration: type1.cfg, type2c.cfg, and type3-2c.cfg by changing cluster to "yes" (cluster=yes).</li>
+<li>Run NiCad against each system both the original (in iwsc2017/systems) and the decompiled version (in iwsc2017/decompile).</li>
+<li>Copy clone class report to each corresponding folder of each system with each clone type in iwsc2017/results folder. For example, for jfreechart's type 1 clone, copy jfreechart_functions-clones-0.00-classes.xml to iwsc2017/results/jfreechart/type1/orig-jfreechart_functions-clones.</li>
+<li>The complete result of each system will look similar to this:</li>
+</ol>
+
+<p>jfreechart
+├── type1
+│   ├── decomp-jfreechart_functions-clones
+│   │   └── jfreechart_functions-clones-0.00-classes.xml
+│   └── orig-jfreechart_functions-clones
+│       └── jfreechart_functions-clones-0.00-classes.xml
+├── type2c
+│   ├── decomp-jfreechart_functions-consistent-clones
+│   │   └── jfreechart_functions-consistent-clones-0.00-classes.xml
+│   └── orig-jfreechart_functions-consistent-clones
+│       └── jfreechart_functions-consistent-clones-0.00-classes.xml
+└── type3-2c
+    ├── decomp-jfreechart_functions-consistent-clones
+    │   └── jfreechart_functions-consistent-clones-0.30-classes.xml
+    └── orig-jfreechart_functions-consistent-clones
+        └── jfreechart_functions-consistent-clones-0.30-classes.xml</p>
+
+<ol>
+<li>Change directory to CloneMapper.</li>
+<li>Modify the config.properties by changing the location of HOME_DIR and SRC_HOME_DIR to the full path of your iwsc2017 folder.</li>
+<li>Compile and run the clone mapper.</li>
+</ol>
+
+<p><code>mvn compile</code>
+<code>mvn exec:java</code></p>
+
+<ol>
+<li>The common, orig-only, and decomp-only clone pairs can be found in each results folder.</li>
+</ol>
 
 <h3>
 <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
